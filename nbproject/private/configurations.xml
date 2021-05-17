@@ -1,0 +1,2981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="benchmarks">
+        <df name="cfg">
+        </df>
+        <df name="EPFL">
+        </df>
+        <df name="ISCAS85">
+        </df>
+        <df name="MAJ">
+        </df>
+        <df name="MIG">
+        </df>
+        <df name="MIGoriginal">
+        </df>
+        <df name="TOY">
+        </df>
+      </df>
+      <df name="CMakeFiles">
+        <df name="3.10.2">
+          <df name="CompilerIdCXX">
+            <df name="tmp">
+            </df>
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+        </df>
+        <df name="3.16.3">
+          <df name="CompilerIdCXX">
+            <df name="tmp">
+            </df>
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+        </df>
+        <df name="CMakeTmp">
+        </df>
+        <df name="fiction.dir">
+          <df name="src">
+            <df name="algo">
+            </df>
+            <df name="io">
+            </df>
+            <df name="tech">
+            </df>
+            <df name="topo">
+            </df>
+          </df>
+        </df>
+        <df name="FindThreads">
+          <in>CheckForPthreads.cxx</in>
+        </df>
+        <df name="Progress">
+        </df>
+        <df name="z3.dir">
+        </df>
+        <in>feature_tests.cxx</in>
+      </df>
+      <df name="include">
+        <df name="CMakeFiles">
+          <df name="3.10.2">
+            <df name="CompilerIdC">
+              <df name="tmp">
+              </df>
+              <in>CMakeCCompilerId.c</in>
+            </df>
+            <df name="CompilerIdCXX">
+              <df name="tmp">
+              </df>
+              <in>CMakeCXXCompilerId.cpp</in>
+            </df>
+          </df>
+          <df name="CMakeTmp">
+          </df>
+          <in>feature_tests.c</in>
+          <in>feature_tests.cxx</in>
+        </df>
+        <df name="mockturtle">
+          <df name="algorithms">
+            <df name="cut_enumeration">
+              <in>cnf_cut.hpp</in>
+              <in>gia_cut.hpp</in>
+              <in>mf_cut.hpp</in>
+              <in>spectr_cut.hpp</in>
+            </df>
+            <df name="detail">
+              <in>mffc_utils.hpp</in>
+            </df>
+            <df name="node_resynthesis">
+              <in>akers.hpp</in>
+              <in>direct.hpp</in>
+              <in>exact.hpp</in>
+              <in>mig_npn.hpp</in>
+              <in>xag_minmc.hpp</in>
+              <in>xag_npn.hpp</in>
+              <in>xmg_npn.hpp</in>
+            </df>
+            <in>aig_resub.hpp</in>
+            <in>akers_synthesis.hpp</in>
+            <in>cell_window.hpp</in>
+            <in>cleanup.hpp</in>
+            <in>cnf.hpp</in>
+            <in>collapse_mapped.hpp</in>
+            <in>cut_enumeration.hpp</in>
+            <in>cut_rewriting.hpp</in>
+            <in>dont_cares.hpp</in>
+            <in>dsd_decomposition.hpp</in>
+            <in>equivalence_checking.hpp</in>
+            <in>gates_to_nodes.hpp</in>
+            <in>lut_mapping.hpp</in>
+            <in>mig_algebraic_rewriting.hpp</in>
+            <in>mig_resub.hpp</in>
+            <in>miter.hpp</in>
+            <in>node_resynthesis.hpp</in>
+            <in>reconv_cut.hpp</in>
+            <in>reconv_cut2.hpp</in>
+            <in>refactoring.hpp</in>
+            <in>resubstitution.hpp</in>
+            <in>satlut_mapping.hpp</in>
+            <in>simulation.hpp</in>
+            <in>xmg_algebraic_rewriting.hpp</in>
+          </df>
+          <df name="generators">
+            <in>arithmetic.hpp</in>
+            <in>control.hpp</in>
+            <in>modular_arithmetic.hpp</in>
+            <in>random_logic_generator.hpp</in>
+            <in>sorting.hpp</in>
+          </df>
+          <df name="io">
+            <in>aiger_reader.hpp</in>
+            <in>bench_reader.hpp</in>
+            <in>blif_reader.hpp</in>
+            <in>pla_reader.hpp</in>
+            <in>verilog_reader.hpp</in>
+            <in>write_bench.hpp</in>
+            <in>write_blif.hpp</in>
+            <in>write_dimacs.hpp</in>
+            <in>write_dot.hpp</in>
+            <in>write_verilog.hpp</in>
+          </df>
+          <df name="networks">
+            <df name="detail">
+              <in>foreach.hpp</in>
+            </df>
+            <in>aig.hpp</in>
+            <in>events.hpp</in>
+            <in>klut.hpp</in>
+            <in>mig.hpp</in>
+            <in>storage.hpp</in>
+            <in>xag.hpp</in>
+            <in>xmg.hpp</in>
+          </df>
+          <df name="properties">
+            <in>migcost.hpp</in>
+          </df>
+          <df name="utils">
+            <in>algorithm.hpp</in>
+            <in>cuts.hpp</in>
+            <in>mixed_radix.hpp</in>
+            <in>node_map.hpp</in>
+            <in>progress_bar.hpp</in>
+            <in>stopwatch.hpp</in>
+            <in>string_utils.hpp</in>
+            <in>truth_table_cache.hpp</in>
+          </df>
+          <df name="views">
+            <in>cut_view.hpp</in>
+            <in>depth_view.hpp</in>
+            <in>fanout_view.hpp</in>
+            <in>fanout_view2.hpp</in>
+            <in>immutable_view.hpp</in>
+            <in>mapping_view.hpp</in>
+            <in>mffc_view.hpp</in>
+            <in>topo_view.hpp</in>
+            <in>window_view.hpp</in>
+          </df>
+          <in>interface.hpp</in>
+          <in>mockturtle.hpp</in>
+          <in>traits.hpp</in>
+        </df>
+      </df>
+      <df name="lib">
+        <df name="abcsat">
+          <df name="abc">
+            <in>AbcGlucose.h</in>
+            <in>Alg.h</in>
+            <in>Alloc.h</in>
+            <in>BoundedQueue.h</in>
+            <in>Constants.h</in>
+            <in>Dimacs.h</in>
+            <in>Heap.h</in>
+            <in>IntTypes.h</in>
+            <in>Map.h</in>
+            <in>Queue.h</in>
+            <in>SimpSolver.h</in>
+            <in>Solver.h</in>
+            <in>SolverTypes.h</in>
+            <in>Sort.h</in>
+            <in>Vec.h</in>
+            <in>XAlloc.h</in>
+            <in>abc_global.h</in>
+            <in>abc_namespaces.h</in>
+            <in>pstdint.h</in>
+            <in>satClause.h</in>
+            <in>satSolver.h</in>
+            <in>satStore.h</in>
+            <in>satVec.h</in>
+            <in>system.h</in>
+            <in>utilDouble.h</in>
+            <in>vecInt.h</in>
+            <in>vecWec.h</in>
+          </df>
+          <df name="CMakeFiles">
+            <df name="3.10.2">
+              <df name="CompilerIdCXX">
+                <df name="tmp">
+                </df>
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
+            </df>
+            <df name="CMakeTmp">
+            </df>
+            <df name="libabcsat.dir">
+            </df>
+            <in>feature_tests.cxx</in>
+          </df>
+          <in>AbcGlucose.cpp</in>
+          <in>Glucose.cpp</in>
+          <in>SimpSolver.cpp</in>
+          <in>satSolver.cpp</in>
+          <in>satStore.cpp</in>
+        </df>
+        <df name="alice">
+        </df>
+        <df name="CMakeFiles">
+          <df name="3.10.2">
+            <df name="CompilerIdC">
+              <df name="tmp">
+              </df>
+              <in>CMakeCCompilerId.c</in>
+            </df>
+            <df name="CompilerIdCXX">
+              <df name="tmp">
+              </df>
+              <in>CMakeCXXCompilerId.cpp</in>
+            </df>
+          </df>
+          <df name="CMakeTmp">
+          </df>
+          <in>feature_tests.c</in>
+          <in>feature_tests.cxx</in>
+        </df>
+        <df name="ez">
+          <df name="ez">
+            <in>direct_iterator.hpp</in>
+          </df>
+        </df>
+        <df name="fmt">
+          <df name="fmt">
+            <in>chrono.h</in>
+            <in>color.h</in>
+            <in>core.h</in>
+            <in>format-inl.h</in>
+            <in>format.cc</in>
+            <in>format.h</in>
+            <in>locale.h</in>
+            <in>ostream.h</in>
+            <in>posix.cc</in>
+            <in>posix.h</in>
+            <in>printf.h</in>
+            <in>ranges.h</in>
+            <in>time.h</in>
+          </df>
+        </df>
+        <df name="kitty">
+          <df name="kitty">
+            <df name="detail">
+              <in>constants.hpp</in>
+              <in>linear_constants.hpp</in>
+              <in>mscfix.hpp</in>
+              <in>utils.hpp</in>
+            </df>
+            <in>affine.hpp</in>
+            <in>algorithm.hpp</in>
+            <in>bit_operations.hpp</in>
+            <in>cnf.hpp</in>
+            <in>constructors.hpp</in>
+            <in>cube.hpp</in>
+            <in>decomposition.hpp</in>
+            <in>dynamic_truth_table.hpp</in>
+            <in>enumeration.hpp</in>
+            <in>esop.hpp</in>
+            <in>hash.hpp</in>
+            <in>implicant.hpp</in>
+            <in>isop.hpp</in>
+            <in>kitty.hpp</in>
+            <in>npn.hpp</in>
+            <in>operations.hpp</in>
+            <in>operators.hpp</in>
+            <in>permutation.hpp</in>
+            <in>print.hpp</in>
+            <in>properties.hpp</in>
+            <in>spectral.hpp</in>
+            <in>static_truth_table.hpp</in>
+            <in>traits.hpp</in>
+          </df>
+        </df>
+        <df name="percy">
+          <df name="percy">
+            <df name="encoders">
+              <in>aig_encoder.hpp</in>
+              <in>ditt_encoder.hpp</in>
+              <in>ditt_maj_encoder.hpp</in>
+              <in>encoder.hpp</in>
+              <in>maj_encoder.hpp</in>
+              <in>mig_encoder.hpp</in>
+              <in>msv_encoder.hpp</in>
+              <in>partial_dag_encoder.hpp</in>
+              <in>ssv_dag_encoder.hpp</in>
+              <in>ssv_encoder.hpp</in>
+              <in>ssv_fence2_encoder.hpp</in>
+              <in>ssv_fence_encoder.hpp</in>
+            </df>
+            <df name="solvers">
+              <in>bmcg_sat.hpp</in>
+              <in>bsat2.hpp</in>
+              <in>cmsat.hpp</in>
+              <in>glucose.hpp</in>
+              <in>satoko.hpp</in>
+              <in>solver_wrapper.hpp</in>
+            </df>
+            <in>chain.hpp</in>
+            <in>cnf.hpp</in>
+            <in>concurrentqueue.h</in>
+            <in>dag.hpp</in>
+            <in>dag_generation.hpp</in>
+            <in>encoders.hpp</in>
+            <in>fence.hpp</in>
+            <in>io.hpp</in>
+            <in>mig.hpp</in>
+            <in>misc.hpp</in>
+            <in>partial_dag.hpp</in>
+            <in>percy.hpp</in>
+            <in>sat_circuits.hpp</in>
+            <in>solvers.hpp</in>
+            <in>spec.hpp</in>
+            <in>tt_utils.hpp</in>
+          </df>
+        </df>
+        <df name="rang">
+          <df name="rang">
+            <in>rang.hpp</in>
+          </df>
+        </df>
+        <df name="sparsepp">
+          <df name="sparsepp">
+            <in>spp.h</in>
+            <in>spp_config.h</in>
+            <in>spp_dlalloc.h</in>
+            <in>spp_memory.h</in>
+            <in>spp_smartptr.h</in>
+            <in>spp_stdint.h</in>
+            <in>spp_timer.h</in>
+            <in>spp_traits.h</in>
+            <in>spp_utils.h</in>
+          </df>
+        </df>
+      </df>
+      <df name="libs">
+        <df name="alice">
+          <df name="CMakeFiles">
+          </df>
+          <df name="docs">
+          </df>
+          <df name="examples">
+            <df name="tutorial1">
+              <in>tutorial1.cpp</in>
+            </df>
+            <df name="tutorial2">
+              <in>tutorial2.cpp</in>
+            </df>
+            <df name="tutorial3">
+              <in>tutorial3.cpp</in>
+            </df>
+            <df name="tutorial4">
+              <in>tutorial4.cpp</in>
+            </df>
+            <df name="tutorial5">
+              <in>tutorial5.cpp</in>
+            </df>
+            <in>demo.cpp</in>
+          </df>
+          <df name="include">
+            <df name="alice">
+              <df name="commands">
+                <in>alias.hpp</in>
+                <in>convert.hpp</in>
+                <in>current.hpp</in>
+                <in>help.hpp</in>
+                <in>print.hpp</in>
+                <in>ps.hpp</in>
+                <in>quit.hpp</in>
+                <in>read_io.hpp</in>
+                <in>set.hpp</in>
+                <in>show.hpp</in>
+                <in>store.hpp</in>
+                <in>write_io.hpp</in>
+              </df>
+              <df name="detail">
+                <in>logging.hpp</in>
+                <in>python.hpp</in>
+                <in>utils.hpp</in>
+              </df>
+              <in>alice.hpp</in>
+              <in>api.hpp</in>
+              <in>cli.hpp</in>
+              <in>command.hpp</in>
+              <in>readline.hpp</in>
+              <in>rules.hpp</in>
+              <in>settings.hpp</in>
+              <in>store.hpp</in>
+              <in>store_api.hpp</in>
+              <in>validators.hpp</in>
+            </df>
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="lib">
+            <df name="any">
+              <in>any.hpp</in>
+            </df>
+            <df name="cli11">
+              <in>CLI11.hpp</in>
+            </df>
+            <df name="CMakeFiles">
+            </df>
+            <df name="fmt">
+              <df name="fmt">
+                <in>container.h</in>
+                <in>format.cc</in>
+                <in>format.h</in>
+                <in>ostream.cc</in>
+                <in>ostream.h</in>
+                <in>posix.cc</in>
+                <in>posix.h</in>
+                <in>printf.cc</in>
+                <in>printf.h</in>
+                <in>string.h</in>
+                <in>time.h</in>
+              </df>
+            </df>
+            <df name="json">
+              <in>json.hpp</in>
+            </df>
+            <df name="pybind11">
+              <df name="CMakeFiles">
+              </df>
+              <df name="docs">
+                <df name="_static">
+                </df>
+                <df name="advanced">
+                  <df name="cast">
+                  </df>
+                  <df name="pycpp">
+                  </df>
+                </df>
+              </df>
+              <df name="include">
+                <df name="pybind11">
+                  <df name="detail">
+                    <in>class.h</in>
+                    <in>common.h</in>
+                    <in>descr.h</in>
+                    <in>init.h</in>
+                    <in>internals.h</in>
+                    <in>typeid.h</in>
+                  </df>
+                  <in>attr.h</in>
+                  <in>buffer_info.h</in>
+                  <in>cast.h</in>
+                  <in>chrono.h</in>
+                  <in>common.h</in>
+                  <in>complex.h</in>
+                  <in>eigen.h</in>
+                  <in>embed.h</in>
+                  <in>eval.h</in>
+                  <in>functional.h</in>
+                  <in>iostream.h</in>
+                  <in>numpy.h</in>
+                  <in>operators.h</in>
+                  <in>options.h</in>
+                  <in>pybind11.h</in>
+                  <in>pytypes.h</in>
+                  <in>stl.h</in>
+                  <in>stl_bind.h</in>
+                </df>
+              </df>
+              <df name="pybind11">
+              </df>
+              <df name="tests">
+                <df name="test_cmake_build">
+                  <df name="installed_embed">
+                  </df>
+                  <df name="installed_function">
+                  </df>
+                  <df name="installed_target">
+                  </df>
+                  <df name="subdirectory_embed">
+                  </df>
+                  <df name="subdirectory_function">
+                  </df>
+                  <df name="subdirectory_target">
+                  </df>
+                  <in>embed.cpp</in>
+                  <in>main.cpp</in>
+                </df>
+                <df name="test_embed">
+                  <in>catch.cpp</in>
+                  <in>test_interpreter.cpp</in>
+                </df>
+                <in>constructor_stats.h</in>
+                <in>local_bindings.h</in>
+                <in>object.h</in>
+                <in>pybind11_cross_module_tests.cpp</in>
+                <in>pybind11_tests.cpp</in>
+                <in>pybind11_tests.h</in>
+                <in>test_buffers.cpp</in>
+                <in>test_builtin_casters.cpp</in>
+                <in>test_call_policies.cpp</in>
+                <in>test_callbacks.cpp</in>
+                <in>test_chrono.cpp</in>
+                <in>test_class.cpp</in>
+                <in>test_constants_and_functions.cpp</in>
+                <in>test_copy_move.cpp</in>
+                <in>test_docstring_options.cpp</in>
+                <in>test_eigen.cpp</in>
+                <in>test_enum.cpp</in>
+                <in>test_eval.cpp</in>
+                <in>test_exceptions.cpp</in>
+                <in>test_factory_constructors.cpp</in>
+                <in>test_iostream.cpp</in>
+                <in>test_kwargs_and_defaults.cpp</in>
+                <in>test_local_bindings.cpp</in>
+                <in>test_methods_and_attributes.cpp</in>
+                <in>test_modules.cpp</in>
+                <in>test_multiple_inheritance.cpp</in>
+                <in>test_numpy_array.cpp</in>
+                <in>test_numpy_dtypes.cpp</in>
+                <in>test_numpy_vectorize.cpp</in>
+                <in>test_opaque_types.cpp</in>
+                <in>test_operator_overloading.cpp</in>
+                <in>test_pickling.cpp</in>
+                <in>test_pytypes.cpp</in>
+                <in>test_sequences_and_iterators.cpp</in>
+                <in>test_smart_ptr.cpp</in>
+                <in>test_stl.cpp</in>
+                <in>test_stl_binders.cpp</in>
+                <in>test_virtual_functions.cpp</in>
+              </df>
+              <df name="tools">
+                <df name="clang">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="test">
+            <df name="catch2">
+              <in>catch.hpp</in>
+            </df>
+            <in>command.cpp</in>
+            <in>json.cpp</in>
+            <in>store.cpp</in>
+            <in>tests.cpp</in>
+            <in>types.cpp</in>
+            <in>utils.cpp</in>
+          </df>
+          <df name="tools">
+          </df>
+        </df>
+        <df name="cppitertools">
+          <df name="examples">
+            <in>accumulate_examples.cpp</in>
+            <in>chain_examples.cpp</in>
+            <in>chunked_examples.cpp</in>
+            <in>combinatoric_examples.cpp</in>
+            <in>compress_examples.cpp</in>
+            <in>count_examples.cpp</in>
+            <in>cycle_examples.cpp</in>
+            <in>dropwhile_examples.cpp</in>
+            <in>enumerate_examples.cpp</in>
+            <in>filter_examples.cpp</in>
+            <in>filterfalse_examples.cpp</in>
+            <in>groupby_examples.cpp</in>
+            <in>imap_examples.cpp</in>
+            <in>mixed_examples.cpp</in>
+            <in>range_examples.cpp</in>
+            <in>repeat_examples.cpp</in>
+            <in>reversed_examples.cpp</in>
+            <in>samples.hpp</in>
+            <in>slice_examples.cpp</in>
+            <in>sliding_window_examples.cpp</in>
+            <in>sorted_examples.cpp</in>
+            <in>starmap_examples.cpp</in>
+            <in>takewhile_examples.cpp</in>
+            <in>unique_everseen_examples.cpp</in>
+            <in>unique_justseen_examples.cpp</in>
+            <in>zip_examples.cpp</in>
+            <in>zip_longest_examples.cpp</in>
+          </df>
+          <df name="internal">
+            <in>iter_tuples.hpp</in>
+            <in>iterator_wrapper.hpp</in>
+            <in>iteratoriterator.hpp</in>
+            <in>iterbase.hpp</in>
+          </df>
+          <df name="test">
+            <in>helpers.hpp</in>
+            <in>test_accumulate.cpp</in>
+            <in>test_chain.cpp</in>
+            <in>test_chunked.cpp</in>
+            <in>test_combinations.cpp</in>
+            <in>test_combinations_with_replacement.cpp</in>
+            <in>test_compress.cpp</in>
+            <in>test_count.cpp</in>
+            <in>test_cycle.cpp</in>
+            <in>test_dropwhile.cpp</in>
+            <in>test_enumerate.cpp</in>
+            <in>test_filter.cpp</in>
+            <in>test_filterfalse.cpp</in>
+            <in>test_groupby.cpp</in>
+            <in>test_helpers.cpp</in>
+            <in>test_imap.cpp</in>
+            <in>test_iterator_wrapper.cpp</in>
+            <in>test_iteratoriterator.cpp</in>
+            <in>test_iterbase.cpp</in>
+            <in>test_main.cpp</in>
+            <in>test_mixed.cpp</in>
+            <in>test_permutations.cpp</in>
+            <in>test_powerset.cpp</in>
+            <in>test_product.cpp</in>
+            <in>test_range.cpp</in>
+            <in>test_repeat.cpp</in>
+            <in>test_reversed.cpp</in>
+            <in>test_slice.cpp</in>
+            <in>test_sliding_window.cpp</in>
+            <in>test_sorted.cpp</in>
+            <in>test_starmap.cpp</in>
+            <in>test_takewhile.cpp</in>
+            <in>test_unique_everseen.cpp</in>
+            <in>test_unique_justseen.cpp</in>
+            <in>test_zip.cpp</in>
+            <in>test_zip_longest.cpp</in>
+          </df>
+          <in>accumulate.hpp</in>
+          <in>chain.hpp</in>
+          <in>chunked.hpp</in>
+          <in>combinations.hpp</in>
+          <in>combinations_with_replacement.hpp</in>
+          <in>compress.hpp</in>
+          <in>count.hpp</in>
+          <in>cycle.hpp</in>
+          <in>dropwhile.hpp</in>
+          <in>enumerate.hpp</in>
+          <in>filter.hpp</in>
+          <in>filterfalse.hpp</in>
+          <in>groupby.hpp</in>
+          <in>imap.hpp</in>
+          <in>itertools.hpp</in>
+          <in>permutations.hpp</in>
+          <in>powerset.hpp</in>
+          <in>product.hpp</in>
+          <in>range.hpp</in>
+          <in>repeat.hpp</in>
+          <in>reversed.hpp</in>
+          <in>slice.hpp</in>
+          <in>sliding_window.hpp</in>
+          <in>sorted.hpp</in>
+          <in>starmap.hpp</in>
+          <in>takewhile.hpp</in>
+          <in>unique_everseen.hpp</in>
+          <in>unique_justseen.hpp</in>
+          <in>zip.hpp</in>
+          <in>zip_longest.hpp</in>
+        </df>
+        <df name="lorina">
+          <df name="CMakeFiles">
+          </df>
+          <df name="docs">
+          </df>
+          <df name="examples">
+            <df name="CMakeFiles">
+              <df name="pretty_print.dir">
+              </df>
+            </df>
+            <in>pretty_print.cpp</in>
+          </df>
+          <df name="include">
+            <df name="CMakeFiles">
+            </df>
+            <df name="lorina">
+              <df name="detail">
+                <in>tokenizer.hpp</in>
+                <in>utils.hpp</in>
+              </df>
+              <in>aiger.hpp</in>
+              <in>bench.hpp</in>
+              <in>blif.hpp</in>
+              <in>common.hpp</in>
+              <in>diagnostics.hpp</in>
+              <in>lorina.hpp</in>
+              <in>pla.hpp</in>
+              <in>verilog.hpp</in>
+              <in>verilog_regex.hpp</in>
+            </df>
+          </df>
+          <df name="lib">
+            <df name="cli11">
+              <df name="cli11">
+                <in>CLI11.hpp</in>
+              </df>
+            </df>
+            <df name="CMakeFiles">
+              <df name="3.10.2">
+                <df name="CompilerIdC">
+                  <df name="tmp">
+                  </df>
+                  <in>CMakeCCompilerId.c</in>
+                </df>
+                <df name="CompilerIdCXX">
+                  <df name="tmp">
+                  </df>
+                  <in>CMakeCXXCompilerId.cpp</in>
+                </df>
+              </df>
+              <df name="CMakeTmp">
+              </df>
+              <in>feature_tests.c</in>
+              <in>feature_tests.cxx</in>
+            </df>
+            <df name="fmt">
+              <df name="fmt">
+                <in>container.h</in>
+                <in>format.cc</in>
+                <in>format.h</in>
+                <in>ostream.cc</in>
+                <in>ostream.h</in>
+                <in>posix.cc</in>
+                <in>posix.h</in>
+                <in>printf.cc</in>
+                <in>printf.h</in>
+                <in>string.h</in>
+                <in>time.h</in>
+              </df>
+            </df>
+            <df name="rang">
+              <df name="rang">
+                <in>rang.hpp</in>
+              </df>
+            </df>
+          </df>
+          <df name="test">
+            <df name="catch2">
+              <in>catch.hpp</in>
+            </df>
+            <in>aiger.cpp</in>
+            <in>bench.cpp</in>
+            <in>blif.cpp</in>
+            <in>pla.cpp</in>
+            <in>tests.cpp</in>
+            <in>utils.cpp</in>
+            <in>verilog.cpp</in>
+          </df>
+        </df>
+        <df name="z3">
+          <df name="build">
+            <df name="ackermannization">
+            </df>
+            <df name="api">
+              <df name="dll">
+              </df>
+            </df>
+            <df name="ast">
+              <df name="fpa">
+              </df>
+              <df name="macros">
+              </df>
+              <df name="normal_forms">
+              </df>
+              <df name="pattern">
+              </df>
+              <df name="proofs">
+              </df>
+              <df name="rewriter">
+                <df name="bit_blaster">
+                </df>
+              </df>
+              <df name="substitution">
+              </df>
+            </df>
+            <df name="cmd_context">
+              <df name="extra_cmds">
+              </df>
+            </df>
+            <df name="math">
+              <df name="automata">
+              </df>
+              <df name="euclid">
+              </df>
+              <df name="grobner">
+              </df>
+              <df name="hilbert">
+              </df>
+              <df name="interval">
+              </df>
+              <df name="polynomial">
+              </df>
+              <df name="realclosure">
+              </df>
+              <df name="simplex">
+              </df>
+              <df name="subpaving">
+                <df name="tactic">
+                </df>
+              </df>
+            </df>
+            <df name="model">
+            </df>
+            <df name="muz">
+              <df name="base">
+              </df>
+              <df name="bmc">
+              </df>
+              <df name="clp">
+              </df>
+              <df name="dataflow">
+              </df>
+              <df name="ddnf">
+              </df>
+              <df name="fp">
+              </df>
+              <df name="rel">
+              </df>
+              <df name="spacer">
+              </df>
+              <df name="tab">
+              </df>
+              <df name="transforms">
+              </df>
+            </df>
+            <df name="nlsat">
+              <df name="tactic">
+              </df>
+            </df>
+            <df name="opt">
+            </df>
+            <df name="parsers">
+              <df name="smt2">
+              </df>
+              <df name="util">
+              </df>
+            </df>
+            <df name="python">
+              <df name="z3">
+              </df>
+            </df>
+            <df name="qe">
+            </df>
+            <df name="sat">
+              <df name="sat_solver">
+              </df>
+              <df name="tactic">
+              </df>
+            </df>
+            <df name="shell">
+            </df>
+            <df name="smt">
+              <df name="params">
+              </df>
+              <df name="proto_model">
+              </df>
+              <df name="tactic">
+              </df>
+            </df>
+            <df name="solver">
+            </df>
+            <df name="tactic">
+              <df name="aig">
+              </df>
+              <df name="arith">
+              </df>
+              <df name="bv">
+              </df>
+              <df name="core">
+              </df>
+              <df name="fd_solver">
+              </df>
+              <df name="fpa">
+              </df>
+              <df name="portfolio">
+              </df>
+              <df name="sls">
+              </df>
+              <df name="smtlogics">
+              </df>
+              <df name="ufbv">
+              </df>
+            </df>
+            <df name="test">
+              <df name="fuzzing">
+              </df>
+            </df>
+            <df name="util">
+              <df name="lp">
+              </df>
+            </df>
+          </df>
+          <df name="cmake">
+            <df name="modules">
+            </df>
+            <in>target_arch_detect.cpp</in>
+          </df>
+          <df name="contrib">
+            <df name="ci">
+              <df name="Dockerfiles">
+              </df>
+              <df name="scripts">
+              </df>
+            </df>
+            <df name="cmake">
+              <df name="src">
+                <df name="test">
+                  <df name="lp">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="qprofdiff">
+              <in>main.cpp</in>
+            </df>
+            <df name="suppressions">
+              <df name="sanitizers">
+              </df>
+            </df>
+          </df>
+          <df name="doc">
+          </df>
+          <df name="examples">
+            <df name="c">
+              <in>test_capi.c</in>
+            </df>
+            <df name="c++">
+              <in>example.cpp</in>
+            </df>
+            <df name="dotnet">
+            </df>
+            <df name="java">
+            </df>
+            <df name="maxsat">
+              <in>maxsat.c</in>
+            </df>
+            <df name="ml">
+            </df>
+            <df name="msf">
+              <df name="SolverFoundation.Plugin.Z3">
+                <df name="Properties">
+                </df>
+              </df>
+              <df name="SolverFoundation.Plugin.Z3.Tests">
+                <df name="Properties">
+                </df>
+              </df>
+              <df name="Validator">
+                <df name="Properties">
+                </df>
+              </df>
+            </df>
+            <df name="python">
+              <df name="complex">
+              </df>
+              <df name="data">
+              </df>
+              <df name="hamiltonian">
+              </df>
+              <df name="mus">
+              </df>
+            </df>
+            <df name="tptp">
+              <in>tptp5.cpp</in>
+              <in>tptp5.h</in>
+              <in>tptp5.lex.cpp</in>
+              <in>tptp5.tab.c</in>
+              <in>tptp5.tab.h</in>
+            </df>
+          </df>
+          <df name="noarch">
+          </df>
+          <df name="package">
+          </df>
+          <df name="scripts">
+          </df>
+          <df name="src">
+            <df name="ackermannization">
+              <in>ackermannization_params.hpp</in>
+              <in>ackermannize_bv_model_converter.cpp</in>
+              <in>ackermannize_bv_model_converter.h</in>
+              <in>ackermannize_bv_tactic.cpp</in>
+              <in>ackermannize_bv_tactic.h</in>
+              <in>ackermannize_bv_tactic_params.hpp</in>
+              <in>ackr_bound_probe.cpp</in>
+              <in>ackr_bound_probe.h</in>
+              <in>ackr_helper.cpp</in>
+              <in>ackr_helper.h</in>
+              <in>ackr_info.h</in>
+              <in>ackr_model_converter.cpp</in>
+              <in>ackr_model_converter.h</in>
+              <in>lackr.cpp</in>
+              <in>lackr.h</in>
+              <in>lackr_model_constructor.cpp</in>
+              <in>lackr_model_constructor.h</in>
+              <in>lackr_model_converter_lazy.cpp</in>
+              <in>lackr_model_converter_lazy.h</in>
+            </df>
+            <df name="api">
+              <df name="c++">
+                <in>z3++.h</in>
+              </df>
+              <df name="dll">
+                <in>dll.cpp</in>
+                <in>gparams_register_modules.cpp</in>
+                <in>install_tactic.cpp</in>
+                <in>mem_initializer.cpp</in>
+              </df>
+              <df name="dotnet">
+                <df name="core">
+                </df>
+                <df name="dotnet35">
+                  <df name="Example">
+                    <df name="Properties">
+                    </df>
+                  </df>
+                  <df name="Properties">
+                  </df>
+                </df>
+                <df name="Properties">
+                </df>
+              </df>
+              <df name="java">
+              </df>
+              <df name="ml">
+                <in>z3native_stubs.h</in>
+              </df>
+              <df name="python">
+                <df name="z3">
+                </df>
+              </df>
+              <in>api_algebraic.cpp</in>
+              <in>api_arith.cpp</in>
+              <in>api_array.cpp</in>
+              <in>api_ast.cpp</in>
+              <in>api_ast_map.cpp</in>
+              <in>api_ast_map.h</in>
+              <in>api_ast_vector.cpp</in>
+              <in>api_ast_vector.h</in>
+              <in>api_bv.cpp</in>
+              <in>api_commands.cpp</in>
+              <in>api_config_params.cpp</in>
+              <in>api_context.cpp</in>
+              <in>api_context.h</in>
+              <in>api_datalog.cpp</in>
+              <in>api_datalog.h</in>
+              <in>api_datatype.cpp</in>
+              <in>api_fpa.cpp</in>
+              <in>api_goal.cpp</in>
+              <in>api_goal.h</in>
+              <in>api_log.cpp</in>
+              <in>api_log_macros.cpp</in>
+              <in>api_log_macros.h</in>
+              <in>api_model.cpp</in>
+              <in>api_model.h</in>
+              <in>api_numeral.cpp</in>
+              <in>api_opt.cpp</in>
+              <in>api_params.cpp</in>
+              <in>api_parsers.cpp</in>
+              <in>api_pb.cpp</in>
+              <in>api_polynomial.cpp</in>
+              <in>api_polynomial.h</in>
+              <in>api_qe.cpp</in>
+              <in>api_quant.cpp</in>
+              <in>api_rcf.cpp</in>
+              <in>api_seq.cpp</in>
+              <in>api_solver.cpp</in>
+              <in>api_solver.h</in>
+              <in>api_stats.cpp</in>
+              <in>api_stats.h</in>
+              <in>api_tactic.cpp</in>
+              <in>api_tactic.h</in>
+              <in>api_util.h</in>
+              <in>z3.h</in>
+              <in>z3_algebraic.h</in>
+              <in>z3_api.h</in>
+              <in>z3_ast_containers.h</in>
+              <in>z3_fixedpoint.h</in>
+              <in>z3_fpa.h</in>
+              <in>z3_logger.h</in>
+              <in>z3_macros.h</in>
+              <in>z3_optimization.h</in>
+              <in>z3_polynomial.h</in>
+              <in>z3_private.h</in>
+              <in>z3_rcf.h</in>
+              <in>z3_replayer.cpp</in>
+              <in>z3_replayer.h</in>
+              <in>z3_spacer.h</in>
+              <in>z3_v1.h</in>
+            </df>
+            <df name="ast">
+              <df name="fpa">
+                <in>bv2fpa_converter.cpp</in>
+                <in>bv2fpa_converter.h</in>
+                <in>fpa2bv_converter.cpp</in>
+                <in>fpa2bv_converter.h</in>
+                <in>fpa2bv_rewriter.cpp</in>
+                <in>fpa2bv_rewriter.h</in>
+                <in>fpa2bv_rewriter_params.hpp</in>
+              </df>
+              <df name="macros">
+                <in>macro_finder.cpp</in>
+                <in>macro_finder.h</in>
+                <in>macro_manager.cpp</in>
+                <in>macro_manager.h</in>
+                <in>macro_util.cpp</in>
+                <in>macro_util.h</in>
+                <in>quasi_macros.cpp</in>
+                <in>quasi_macros.h</in>
+              </df>
+              <df name="normal_forms">
+                <in>defined_names.cpp</in>
+                <in>defined_names.h</in>
+                <in>name_exprs.cpp</in>
+                <in>name_exprs.h</in>
+                <in>nnf.cpp</in>
+                <in>nnf.h</in>
+                <in>nnf_params.hpp</in>
+                <in>pull_quant.cpp</in>
+                <in>pull_quant.h</in>
+              </df>
+              <df name="pattern">
+                <in>database.h</in>
+                <in>expr_pattern_match.cpp</in>
+                <in>expr_pattern_match.h</in>
+                <in>pattern_inference.cpp</in>
+                <in>pattern_inference.h</in>
+                <in>pattern_inference_params.cpp</in>
+                <in>pattern_inference_params.h</in>
+                <in>pattern_inference_params_helper.hpp</in>
+              </df>
+              <df name="proofs">
+                <in>proof_checker.cpp</in>
+                <in>proof_checker.h</in>
+                <in>proof_utils.cpp</in>
+                <in>proof_utils.h</in>
+              </df>
+              <df name="rewriter">
+                <df name="bit_blaster">
+                  <in>bit_blaster.cpp</in>
+                  <in>bit_blaster.h</in>
+                  <in>bit_blaster_params.h</in>
+                  <in>bit_blaster_rewriter.cpp</in>
+                  <in>bit_blaster_rewriter.h</in>
+                  <in>bit_blaster_tpl.h</in>
+                  <in>bit_blaster_tpl_def.h</in>
+                </df>
+                <in>arith_rewriter.cpp</in>
+                <in>arith_rewriter.h</in>
+                <in>arith_rewriter_params.hpp</in>
+                <in>array_rewriter.cpp</in>
+                <in>array_rewriter.h</in>
+                <in>array_rewriter_params.hpp</in>
+                <in>ast_counter.cpp</in>
+                <in>ast_counter.h</in>
+                <in>bit2int.cpp</in>
+                <in>bit2int.h</in>
+                <in>bool_rewriter.cpp</in>
+                <in>bool_rewriter.h</in>
+                <in>bool_rewriter_params.hpp</in>
+                <in>bv_bounds.cpp</in>
+                <in>bv_bounds.h</in>
+                <in>bv_elim.cpp</in>
+                <in>bv_elim.h</in>
+                <in>bv_rewriter.cpp</in>
+                <in>bv_rewriter.h</in>
+                <in>bv_rewriter_params.hpp</in>
+                <in>bv_trailing.cpp</in>
+                <in>bv_trailing.h</in>
+                <in>datatype_rewriter.cpp</in>
+                <in>datatype_rewriter.h</in>
+                <in>der.cpp</in>
+                <in>der.h</in>
+                <in>distribute_forall.cpp</in>
+                <in>distribute_forall.h</in>
+                <in>dl_rewriter.cpp</in>
+                <in>dl_rewriter.h</in>
+                <in>elim_bounds.cpp</in>
+                <in>elim_bounds.h</in>
+                <in>enum2bv_rewriter.cpp</in>
+                <in>enum2bv_rewriter.h</in>
+                <in>expr_replacer.cpp</in>
+                <in>expr_replacer.h</in>
+                <in>expr_safe_replace.cpp</in>
+                <in>expr_safe_replace.h</in>
+                <in>factor_equivs.cpp</in>
+                <in>factor_equivs.h</in>
+                <in>factor_rewriter.cpp</in>
+                <in>factor_rewriter.h</in>
+                <in>fpa_rewriter.cpp</in>
+                <in>fpa_rewriter.h</in>
+                <in>fpa_rewriter_params.hpp</in>
+                <in>inj_axiom.cpp</in>
+                <in>inj_axiom.h</in>
+                <in>label_rewriter.cpp</in>
+                <in>label_rewriter.h</in>
+                <in>maximize_ac_sharing.cpp</in>
+                <in>maximize_ac_sharing.h</in>
+                <in>mk_extract_proc.cpp</in>
+                <in>mk_extract_proc.h</in>
+                <in>mk_simplified_app.cpp</in>
+                <in>mk_simplified_app.h</in>
+                <in>pb2bv_rewriter.cpp</in>
+                <in>pb2bv_rewriter.h</in>
+                <in>pb_rewriter.cpp</in>
+                <in>pb_rewriter.h</in>
+                <in>pb_rewriter_def.h</in>
+                <in>poly_rewriter.h</in>
+                <in>poly_rewriter_def.h</in>
+                <in>poly_rewriter_params.hpp</in>
+                <in>push_app_ite.cpp</in>
+                <in>push_app_ite.h</in>
+                <in>quant_hoist.cpp</in>
+                <in>quant_hoist.h</in>
+                <in>recfun_replace.h</in>
+                <in>rewriter.cpp</in>
+                <in>rewriter.h</in>
+                <in>rewriter_def.h</in>
+                <in>rewriter_params.hpp</in>
+                <in>rewriter_types.h</in>
+                <in>seq_rewriter.cpp</in>
+                <in>seq_rewriter.h</in>
+                <in>th_rewriter.cpp</in>
+                <in>th_rewriter.h</in>
+                <in>var_subst.cpp</in>
+                <in>var_subst.h</in>
+              </df>
+              <df name="substitution">
+                <in>expr_offset.h</in>
+                <in>expr_offset_map.h</in>
+                <in>matcher.cpp</in>
+                <in>matcher.h</in>
+                <in>substitution.cpp</in>
+                <in>substitution.h</in>
+                <in>substitution_tree.cpp</in>
+                <in>substitution_tree.h</in>
+                <in>unifier.cpp</in>
+                <in>unifier.h</in>
+                <in>var_offset_map.h</in>
+              </df>
+              <in>act_cache.cpp</in>
+              <in>act_cache.h</in>
+              <in>arith_decl_plugin.cpp</in>
+              <in>arith_decl_plugin.h</in>
+              <in>array_decl_plugin.cpp</in>
+              <in>array_decl_plugin.h</in>
+              <in>ast.cpp</in>
+              <in>ast.h</in>
+              <in>ast_ll_pp.cpp</in>
+              <in>ast_ll_pp.h</in>
+              <in>ast_lt.cpp</in>
+              <in>ast_lt.h</in>
+              <in>ast_pp.h</in>
+              <in>ast_pp_dot.cpp</in>
+              <in>ast_pp_dot.h</in>
+              <in>ast_pp_util.cpp</in>
+              <in>ast_pp_util.h</in>
+              <in>ast_printer.cpp</in>
+              <in>ast_printer.h</in>
+              <in>ast_smt2_pp.cpp</in>
+              <in>ast_smt2_pp.h</in>
+              <in>ast_smt_pp.cpp</in>
+              <in>ast_smt_pp.h</in>
+              <in>ast_trail.h</in>
+              <in>ast_translation.cpp</in>
+              <in>ast_translation.h</in>
+              <in>ast_util.cpp</in>
+              <in>ast_util.h</in>
+              <in>bv_decl_plugin.cpp</in>
+              <in>bv_decl_plugin.h</in>
+              <in>csp_decl_plugin.cpp</in>
+              <in>csp_decl_plugin.h</in>
+              <in>datatype_decl_plugin.cpp</in>
+              <in>datatype_decl_plugin.h</in>
+              <in>decl_collector.cpp</in>
+              <in>decl_collector.h</in>
+              <in>dl_decl_plugin.cpp</in>
+              <in>dl_decl_plugin.h</in>
+              <in>expr2polynomial.cpp</in>
+              <in>expr2polynomial.h</in>
+              <in>expr2var.cpp</in>
+              <in>expr2var.h</in>
+              <in>expr_abstract.cpp</in>
+              <in>expr_abstract.h</in>
+              <in>expr_delta_pair.h</in>
+              <in>expr_functors.cpp</in>
+              <in>expr_functors.h</in>
+              <in>expr_map.cpp</in>
+              <in>expr_map.h</in>
+              <in>expr_stat.cpp</in>
+              <in>expr_stat.h</in>
+              <in>expr_substitution.cpp</in>
+              <in>expr_substitution.h</in>
+              <in>for_each_ast.cpp</in>
+              <in>for_each_ast.h</in>
+              <in>for_each_expr.cpp</in>
+              <in>for_each_expr.h</in>
+              <in>format.cpp</in>
+              <in>format.h</in>
+              <in>fpa_decl_plugin.cpp</in>
+              <in>fpa_decl_plugin.h</in>
+              <in>func_decl_dependencies.cpp</in>
+              <in>func_decl_dependencies.h</in>
+              <in>has_free_vars.cpp</in>
+              <in>has_free_vars.h</in>
+              <in>justified_expr.h</in>
+              <in>macro_substitution.cpp</in>
+              <in>macro_substitution.h</in>
+              <in>num_occurs.cpp</in>
+              <in>num_occurs.h</in>
+              <in>occurs.cpp</in>
+              <in>occurs.h</in>
+              <in>pb_decl_plugin.cpp</in>
+              <in>pb_decl_plugin.h</in>
+              <in>pp.cpp</in>
+              <in>pp.h</in>
+              <in>pp_params.hpp</in>
+              <in>recfun_decl_plugin.cpp</in>
+              <in>recfun_decl_plugin.h</in>
+              <in>recurse_expr.h</in>
+              <in>recurse_expr_def.h</in>
+              <in>reg_decl_plugins.cpp</in>
+              <in>reg_decl_plugins.h</in>
+              <in>scoped_proof.h</in>
+              <in>seq_decl_plugin.cpp</in>
+              <in>seq_decl_plugin.h</in>
+              <in>shared_occs.cpp</in>
+              <in>shared_occs.h</in>
+              <in>static_features.cpp</in>
+              <in>static_features.h</in>
+              <in>used_symbols.h</in>
+              <in>used_vars.cpp</in>
+              <in>used_vars.h</in>
+              <in>well_sorted.cpp</in>
+              <in>well_sorted.h</in>
+            </df>
+            <df name="cmd_context">
+              <df name="extra_cmds">
+                <in>dbg_cmds.cpp</in>
+                <in>dbg_cmds.h</in>
+                <in>polynomial_cmds.cpp</in>
+                <in>polynomial_cmds.h</in>
+                <in>subpaving_cmds.cpp</in>
+                <in>subpaving_cmds.h</in>
+              </df>
+              <in>basic_cmds.cpp</in>
+              <in>basic_cmds.h</in>
+              <in>check_logic.cpp</in>
+              <in>check_logic.h</in>
+              <in>cmd_context.cpp</in>
+              <in>cmd_context.h</in>
+              <in>cmd_context_to_goal.cpp</in>
+              <in>cmd_context_to_goal.h</in>
+              <in>cmd_util.cpp</in>
+              <in>cmd_util.h</in>
+              <in>context_params.cpp</in>
+              <in>context_params.h</in>
+              <in>echo_tactic.cpp</in>
+              <in>echo_tactic.h</in>
+              <in>eval_cmd.cpp</in>
+              <in>eval_cmd.h</in>
+              <in>parametric_cmd.cpp</in>
+              <in>parametric_cmd.h</in>
+              <in>pdecl.cpp</in>
+              <in>pdecl.h</in>
+              <in>simplify_cmd.cpp</in>
+              <in>simplify_cmd.h</in>
+              <in>tactic_cmds.cpp</in>
+              <in>tactic_cmds.h</in>
+              <in>tactic_manager.cpp</in>
+              <in>tactic_manager.h</in>
+            </df>
+            <df name="math">
+              <df name="automata">
+                <in>automaton.cpp</in>
+                <in>automaton.h</in>
+                <in>boolean_algebra.h</in>
+                <in>symbolic_automata.h</in>
+                <in>symbolic_automata_def.h</in>
+              </df>
+              <df name="euclid">
+                <in>euclidean_solver.cpp</in>
+                <in>euclidean_solver.h</in>
+              </df>
+              <df name="grobner">
+                <in>grobner.cpp</in>
+                <in>grobner.h</in>
+              </df>
+              <df name="hilbert">
+                <in>heap_trie.h</in>
+                <in>hilbert_basis.cpp</in>
+                <in>hilbert_basis.h</in>
+              </df>
+              <df name="interval">
+                <in>interval.h</in>
+                <in>interval_def.h</in>
+                <in>interval_mpq.cpp</in>
+              </df>
+              <df name="polynomial">
+                <in>algebraic_numbers.cpp</in>
+                <in>algebraic_numbers.h</in>
+                <in>algebraic_params.hpp</in>
+                <in>linear_eq_solver.h</in>
+                <in>polynomial.cpp</in>
+                <in>polynomial.h</in>
+                <in>polynomial_cache.cpp</in>
+                <in>polynomial_cache.h</in>
+                <in>polynomial_primes.h</in>
+                <in>polynomial_var2value.h</in>
+                <in>rpolynomial.cpp</in>
+                <in>rpolynomial.h</in>
+                <in>sexpr2upolynomial.cpp</in>
+                <in>sexpr2upolynomial.h</in>
+                <in>upolynomial.cpp</in>
+                <in>upolynomial.h</in>
+                <in>upolynomial_factorization.cpp</in>
+                <in>upolynomial_factorization.h</in>
+                <in>upolynomial_factorization_int.h</in>
+              </df>
+              <df name="realclosure">
+                <in>mpz_matrix.cpp</in>
+                <in>mpz_matrix.h</in>
+                <in>rcf_params.hpp</in>
+                <in>realclosure.cpp</in>
+                <in>realclosure.h</in>
+              </df>
+              <df name="simplex">
+                <in>model_based_opt.cpp</in>
+                <in>model_based_opt.h</in>
+                <in>network_flow.h</in>
+                <in>network_flow_def.h</in>
+                <in>simplex.cpp</in>
+                <in>simplex.h</in>
+                <in>simplex_def.h</in>
+                <in>sparse_matrix.h</in>
+                <in>sparse_matrix_def.h</in>
+              </df>
+              <df name="subpaving">
+                <df name="tactic">
+                  <in>expr2subpaving.cpp</in>
+                  <in>expr2subpaving.h</in>
+                  <in>subpaving_tactic.cpp</in>
+                  <in>subpaving_tactic.h</in>
+                </df>
+                <in>subpaving.cpp</in>
+                <in>subpaving.h</in>
+                <in>subpaving_hwf.cpp</in>
+                <in>subpaving_hwf.h</in>
+                <in>subpaving_mpf.cpp</in>
+                <in>subpaving_mpf.h</in>
+                <in>subpaving_mpff.cpp</in>
+                <in>subpaving_mpff.h</in>
+                <in>subpaving_mpfx.cpp</in>
+                <in>subpaving_mpfx.h</in>
+                <in>subpaving_mpq.cpp</in>
+                <in>subpaving_mpq.h</in>
+                <in>subpaving_t.h</in>
+                <in>subpaving_t_def.h</in>
+                <in>subpaving_types.h</in>
+              </df>
+            </df>
+            <df name="model">
+              <in>func_interp.cpp</in>
+              <in>func_interp.h</in>
+              <in>model.cpp</in>
+              <in>model.h</in>
+              <in>model2expr.cpp</in>
+              <in>model2expr.h</in>
+              <in>model_core.cpp</in>
+              <in>model_core.h</in>
+              <in>model_evaluator.cpp</in>
+              <in>model_evaluator.h</in>
+              <in>model_evaluator_params.hpp</in>
+              <in>model_implicant.cpp</in>
+              <in>model_implicant.h</in>
+              <in>model_params.hpp</in>
+              <in>model_pp.cpp</in>
+              <in>model_pp.h</in>
+              <in>model_smt2_pp.cpp</in>
+              <in>model_smt2_pp.h</in>
+              <in>model_v2_pp.cpp</in>
+              <in>model_v2_pp.h</in>
+            </df>
+            <df name="muz">
+              <df name="base">
+                <in>bind_variables.cpp</in>
+                <in>bind_variables.h</in>
+                <in>dl_boogie_proof.cpp</in>
+                <in>dl_boogie_proof.h</in>
+                <in>dl_context.cpp</in>
+                <in>dl_context.h</in>
+                <in>dl_costs.cpp</in>
+                <in>dl_costs.h</in>
+                <in>dl_engine_base.h</in>
+                <in>dl_rule.cpp</in>
+                <in>dl_rule.h</in>
+                <in>dl_rule_set.cpp</in>
+                <in>dl_rule_set.h</in>
+                <in>dl_rule_subsumption_index.cpp</in>
+                <in>dl_rule_subsumption_index.h</in>
+                <in>dl_rule_transformer.cpp</in>
+                <in>dl_rule_transformer.h</in>
+                <in>dl_util.cpp</in>
+                <in>dl_util.h</in>
+                <in>fp_params.hpp</in>
+                <in>hnf.cpp</in>
+                <in>hnf.h</in>
+                <in>rule_properties.cpp</in>
+                <in>rule_properties.h</in>
+              </df>
+              <df name="bmc">
+                <in>dl_bmc_engine.cpp</in>
+                <in>dl_bmc_engine.h</in>
+              </df>
+              <df name="clp">
+                <in>clp_context.cpp</in>
+                <in>clp_context.h</in>
+              </df>
+              <df name="dataflow">
+                <in>dataflow.cpp</in>
+                <in>dataflow.h</in>
+                <in>reachability.h</in>
+              </df>
+              <df name="ddnf">
+                <in>ddnf.cpp</in>
+                <in>ddnf.h</in>
+              </df>
+              <df name="fp">
+                <in>datalog_parser.cpp</in>
+                <in>datalog_parser.h</in>
+                <in>dl_cmds.cpp</in>
+                <in>dl_cmds.h</in>
+                <in>dl_register_engine.cpp</in>
+                <in>dl_register_engine.h</in>
+                <in>horn_tactic.cpp</in>
+                <in>horn_tactic.h</in>
+              </df>
+              <df name="rel">
+                <in>aig_exporter.cpp</in>
+                <in>aig_exporter.h</in>
+                <in>check_relation.cpp</in>
+                <in>check_relation.h</in>
+                <in>dl_base.cpp</in>
+                <in>dl_base.h</in>
+                <in>dl_bound_relation.cpp</in>
+                <in>dl_bound_relation.h</in>
+                <in>dl_check_table.cpp</in>
+                <in>dl_check_table.h</in>
+                <in>dl_compiler.cpp</in>
+                <in>dl_compiler.h</in>
+                <in>dl_external_relation.cpp</in>
+                <in>dl_external_relation.h</in>
+                <in>dl_finite_product_relation.cpp</in>
+                <in>dl_finite_product_relation.h</in>
+                <in>dl_instruction.cpp</in>
+                <in>dl_instruction.h</in>
+                <in>dl_interval_relation.cpp</in>
+                <in>dl_interval_relation.h</in>
+                <in>dl_lazy_table.cpp</in>
+                <in>dl_lazy_table.h</in>
+                <in>dl_mk_explanations.cpp</in>
+                <in>dl_mk_explanations.h</in>
+                <in>dl_mk_similarity_compressor.cpp</in>
+                <in>dl_mk_similarity_compressor.h</in>
+                <in>dl_mk_simple_joins.cpp</in>
+                <in>dl_mk_simple_joins.h</in>
+                <in>dl_product_relation.cpp</in>
+                <in>dl_product_relation.h</in>
+                <in>dl_relation_manager.cpp</in>
+                <in>dl_relation_manager.h</in>
+                <in>dl_sieve_relation.cpp</in>
+                <in>dl_sieve_relation.h</in>
+                <in>dl_sparse_table.cpp</in>
+                <in>dl_sparse_table.h</in>
+                <in>dl_table.cpp</in>
+                <in>dl_table.h</in>
+                <in>dl_table_plugin.h</in>
+                <in>dl_table_relation.cpp</in>
+                <in>dl_table_relation.h</in>
+                <in>dl_vector_relation.h</in>
+                <in>doc.cpp</in>
+                <in>doc.h</in>
+                <in>karr_relation.cpp</in>
+                <in>karr_relation.h</in>
+                <in>rel_context.cpp</in>
+                <in>rel_context.h</in>
+                <in>tbv.cpp</in>
+                <in>tbv.h</in>
+                <in>udoc_relation.cpp</in>
+                <in>udoc_relation.h</in>
+              </df>
+              <df name="spacer">
+                <in>spacer_antiunify.cpp</in>
+                <in>spacer_antiunify.h</in>
+                <in>spacer_callback.cpp</in>
+                <in>spacer_callback.h</in>
+                <in>spacer_context.cpp</in>
+                <in>spacer_context.h</in>
+                <in>spacer_dl_interface.cpp</in>
+                <in>spacer_dl_interface.h</in>
+                <in>spacer_farkas_learner.cpp</in>
+                <in>spacer_farkas_learner.h</in>
+                <in>spacer_generalizers.cpp</in>
+                <in>spacer_generalizers.h</in>
+                <in>spacer_iuc_proof.cpp</in>
+                <in>spacer_iuc_proof.h</in>
+                <in>spacer_iuc_solver.cpp</in>
+                <in>spacer_iuc_solver.h</in>
+                <in>spacer_json.cpp</in>
+                <in>spacer_json.h</in>
+                <in>spacer_legacy_frames.cpp</in>
+                <in>spacer_legacy_frames.h</in>
+                <in>spacer_legacy_mbp.cpp</in>
+                <in>spacer_legacy_mev.cpp</in>
+                <in>spacer_legacy_mev.h</in>
+                <in>spacer_manager.cpp</in>
+                <in>spacer_manager.h</in>
+                <in>spacer_matrix.cpp</in>
+                <in>spacer_matrix.h</in>
+                <in>spacer_mbc.cpp</in>
+                <in>spacer_mbc.h</in>
+                <in>spacer_mev_array.cpp</in>
+                <in>spacer_mev_array.h</in>
+                <in>spacer_pdr.cpp</in>
+                <in>spacer_pdr.h</in>
+                <in>spacer_proof_utils.cpp</in>
+                <in>spacer_proof_utils.h</in>
+                <in>spacer_prop_solver.cpp</in>
+                <in>spacer_prop_solver.h</in>
+                <in>spacer_qe_project.cpp</in>
+                <in>spacer_qe_project.h</in>
+                <in>spacer_quant_generalizer.cpp</in>
+                <in>spacer_sat_answer.cpp</in>
+                <in>spacer_sat_answer.h</in>
+                <in>spacer_sem_matcher.cpp</in>
+                <in>spacer_sem_matcher.h</in>
+                <in>spacer_sym_mux.cpp</in>
+                <in>spacer_sym_mux.h</in>
+                <in>spacer_unsat_core_learner.cpp</in>
+                <in>spacer_unsat_core_learner.h</in>
+                <in>spacer_unsat_core_plugin.cpp</in>
+                <in>spacer_unsat_core_plugin.h</in>
+                <in>spacer_util.cpp</in>
+                <in>spacer_util.h</in>
+              </df>
+              <df name="tab">
+                <in>tab_context.cpp</in>
+                <in>tab_context.h</in>
+              </df>
+              <df name="transforms">
+                <in>dl_mk_array_blast.cpp</in>
+                <in>dl_mk_array_blast.h</in>
+                <in>dl_mk_array_eq_rewrite.cpp</in>
+                <in>dl_mk_array_eq_rewrite.h</in>
+                <in>dl_mk_array_instantiation.cpp</in>
+                <in>dl_mk_array_instantiation.h</in>
+                <in>dl_mk_backwards.cpp</in>
+                <in>dl_mk_backwards.h</in>
+                <in>dl_mk_bit_blast.cpp</in>
+                <in>dl_mk_bit_blast.h</in>
+                <in>dl_mk_coalesce.cpp</in>
+                <in>dl_mk_coalesce.h</in>
+                <in>dl_mk_coi_filter.cpp</in>
+                <in>dl_mk_coi_filter.h</in>
+                <in>dl_mk_different.h</in>
+                <in>dl_mk_elim_term_ite.cpp</in>
+                <in>dl_mk_elim_term_ite.h</in>
+                <in>dl_mk_filter_rules.cpp</in>
+                <in>dl_mk_filter_rules.h</in>
+                <in>dl_mk_interp_tail_simplifier.cpp</in>
+                <in>dl_mk_interp_tail_simplifier.h</in>
+                <in>dl_mk_karr_invariants.cpp</in>
+                <in>dl_mk_karr_invariants.h</in>
+                <in>dl_mk_loop_counter.cpp</in>
+                <in>dl_mk_loop_counter.h</in>
+                <in>dl_mk_magic_sets.cpp</in>
+                <in>dl_mk_magic_sets.h</in>
+                <in>dl_mk_magic_symbolic.cpp</in>
+                <in>dl_mk_magic_symbolic.h</in>
+                <in>dl_mk_quantifier_abstraction.cpp</in>
+                <in>dl_mk_quantifier_abstraction.h</in>
+                <in>dl_mk_quantifier_instantiation.cpp</in>
+                <in>dl_mk_quantifier_instantiation.h</in>
+                <in>dl_mk_rule_inliner.cpp</in>
+                <in>dl_mk_rule_inliner.h</in>
+                <in>dl_mk_scale.cpp</in>
+                <in>dl_mk_scale.h</in>
+                <in>dl_mk_separate_negated_tails.cpp</in>
+                <in>dl_mk_separate_negated_tails.h</in>
+                <in>dl_mk_slice.cpp</in>
+                <in>dl_mk_slice.h</in>
+                <in>dl_mk_subsumption_checker.cpp</in>
+                <in>dl_mk_subsumption_checker.h</in>
+                <in>dl_mk_synchronize.cpp</in>
+                <in>dl_mk_synchronize.h</in>
+                <in>dl_mk_unbound_compressor.cpp</in>
+                <in>dl_mk_unbound_compressor.h</in>
+                <in>dl_mk_unfold.cpp</in>
+                <in>dl_mk_unfold.h</in>
+                <in>dl_transforms.cpp</in>
+                <in>dl_transforms.h</in>
+              </df>
+            </df>
+            <df name="nlsat">
+              <df name="tactic">
+                <in>goal2nlsat.cpp</in>
+                <in>goal2nlsat.h</in>
+                <in>nlsat_tactic.cpp</in>
+                <in>nlsat_tactic.h</in>
+                <in>qfnra_nlsat_tactic.cpp</in>
+                <in>qfnra_nlsat_tactic.h</in>
+              </df>
+              <in>nlsat_assignment.h</in>
+              <in>nlsat_clause.cpp</in>
+              <in>nlsat_clause.h</in>
+              <in>nlsat_evaluator.cpp</in>
+              <in>nlsat_evaluator.h</in>
+              <in>nlsat_explain.cpp</in>
+              <in>nlsat_explain.h</in>
+              <in>nlsat_interval_set.cpp</in>
+              <in>nlsat_interval_set.h</in>
+              <in>nlsat_justification.h</in>
+              <in>nlsat_params.hpp</in>
+              <in>nlsat_scoped_literal_vector.h</in>
+              <in>nlsat_solver.cpp</in>
+              <in>nlsat_solver.h</in>
+              <in>nlsat_types.cpp</in>
+              <in>nlsat_types.h</in>
+            </df>
+            <df name="opt">
+              <in>maxres.cpp</in>
+              <in>maxres.h</in>
+              <in>maxsmt.cpp</in>
+              <in>maxsmt.h</in>
+              <in>opt_cmds.cpp</in>
+              <in>opt_cmds.h</in>
+              <in>opt_context.cpp</in>
+              <in>opt_context.h</in>
+              <in>opt_params.hpp</in>
+              <in>opt_pareto.cpp</in>
+              <in>opt_pareto.h</in>
+              <in>opt_parse.cpp</in>
+              <in>opt_parse.h</in>
+              <in>opt_sls_solver.h</in>
+              <in>opt_solver.cpp</in>
+              <in>opt_solver.h</in>
+              <in>optsmt.cpp</in>
+              <in>optsmt.h</in>
+              <in>pb_sls.cpp</in>
+              <in>pb_sls.h</in>
+              <in>sortmax.cpp</in>
+              <in>wmax.cpp</in>
+              <in>wmax.h</in>
+            </df>
+            <df name="parsers">
+              <df name="smt2">
+                <in>marshal.cpp</in>
+                <in>marshal.h</in>
+                <in>smt2parser.cpp</in>
+                <in>smt2parser.h</in>
+                <in>smt2scanner.cpp</in>
+                <in>smt2scanner.h</in>
+              </df>
+              <df name="util">
+                <in>cost_parser.cpp</in>
+                <in>cost_parser.h</in>
+                <in>parser_params.hpp</in>
+                <in>pattern_validation.cpp</in>
+                <in>pattern_validation.h</in>
+                <in>scanner.cpp</in>
+                <in>scanner.h</in>
+                <in>simple_parser.cpp</in>
+                <in>simple_parser.h</in>
+              </df>
+            </df>
+            <df name="qe">
+              <in>nlarith_util.cpp</in>
+              <in>nlarith_util.h</in>
+              <in>nlqsat.cpp</in>
+              <in>nlqsat.h</in>
+              <in>qe.cpp</in>
+              <in>qe.h</in>
+              <in>qe_arith.cpp</in>
+              <in>qe_arith.h</in>
+              <in>qe_arith_plugin.cpp</in>
+              <in>qe_array_plugin.cpp</in>
+              <in>qe_arrays.cpp</in>
+              <in>qe_arrays.h</in>
+              <in>qe_bool_plugin.cpp</in>
+              <in>qe_bv_plugin.cpp</in>
+              <in>qe_cmd.cpp</in>
+              <in>qe_cmd.h</in>
+              <in>qe_datatype_plugin.cpp</in>
+              <in>qe_datatypes.cpp</in>
+              <in>qe_datatypes.h</in>
+              <in>qe_dl_plugin.cpp</in>
+              <in>qe_lite.cpp</in>
+              <in>qe_lite.h</in>
+              <in>qe_mbi.cpp</in>
+              <in>qe_mbi.h</in>
+              <in>qe_mbp.cpp</in>
+              <in>qe_mbp.h</in>
+              <in>qe_sat_tactic.cpp</in>
+              <in>qe_sat_tactic.h</in>
+              <in>qe_solve_plugin.cpp</in>
+              <in>qe_solve_plugin.h</in>
+              <in>qe_tactic.cpp</in>
+              <in>qe_tactic.h</in>
+              <in>qe_term_graph.cpp</in>
+              <in>qe_term_graph.h</in>
+              <in>qe_vartest.h</in>
+              <in>qsat.cpp</in>
+              <in>qsat.h</in>
+            </df>
+            <df name="sat">
+              <df name="sat_solver">
+                <in>inc_sat_solver.cpp</in>
+                <in>inc_sat_solver.h</in>
+              </df>
+              <df name="tactic">
+                <in>atom2bool_var.cpp</in>
+                <in>atom2bool_var.h</in>
+                <in>goal2sat.cpp</in>
+                <in>goal2sat.h</in>
+                <in>sat_tactic.cpp</in>
+                <in>sat_tactic.h</in>
+              </df>
+              <in>ba_solver.cpp</in>
+              <in>ba_solver.h</in>
+              <in>dimacs.cpp</in>
+              <in>dimacs.h</in>
+              <in>sat_allocator.h</in>
+              <in>sat_asymm_branch.cpp</in>
+              <in>sat_asymm_branch.h</in>
+              <in>sat_asymm_branch_params.hpp</in>
+              <in>sat_bdd.cpp</in>
+              <in>sat_bdd.h</in>
+              <in>sat_big.cpp</in>
+              <in>sat_big.h</in>
+              <in>sat_clause.cpp</in>
+              <in>sat_clause.h</in>
+              <in>sat_clause_set.cpp</in>
+              <in>sat_clause_set.h</in>
+              <in>sat_clause_use_list.cpp</in>
+              <in>sat_clause_use_list.h</in>
+              <in>sat_cleaner.cpp</in>
+              <in>sat_cleaner.h</in>
+              <in>sat_config.cpp</in>
+              <in>sat_config.h</in>
+              <in>sat_drat.cpp</in>
+              <in>sat_drat.h</in>
+              <in>sat_elim_eqs.cpp</in>
+              <in>sat_elim_eqs.h</in>
+              <in>sat_elim_vars.cpp</in>
+              <in>sat_elim_vars.h</in>
+              <in>sat_extension.h</in>
+              <in>sat_iff3_finder.cpp</in>
+              <in>sat_iff3_finder.h</in>
+              <in>sat_integrity_checker.cpp</in>
+              <in>sat_integrity_checker.h</in>
+              <in>sat_justification.h</in>
+              <in>sat_local_search.cpp</in>
+              <in>sat_local_search.h</in>
+              <in>sat_lookahead.cpp</in>
+              <in>sat_lookahead.h</in>
+              <in>sat_model_converter.cpp</in>
+              <in>sat_model_converter.h</in>
+              <in>sat_mus.cpp</in>
+              <in>sat_mus.h</in>
+              <in>sat_parallel.cpp</in>
+              <in>sat_parallel.h</in>
+              <in>sat_params.hpp</in>
+              <in>sat_probing.cpp</in>
+              <in>sat_probing.h</in>
+              <in>sat_scc.cpp</in>
+              <in>sat_scc.h</in>
+              <in>sat_scc_params.hpp</in>
+              <in>sat_simplifier.cpp</in>
+              <in>sat_simplifier.h</in>
+              <in>sat_simplifier_params.hpp</in>
+              <in>sat_solver.cpp</in>
+              <in>sat_solver.h</in>
+              <in>sat_types.h</in>
+              <in>sat_unit_walk.cpp</in>
+              <in>sat_unit_walk.h</in>
+              <in>sat_var_queue.h</in>
+              <in>sat_watched.cpp</in>
+              <in>sat_watched.h</in>
+            </df>
+            <df name="shell">
+              <in>datalog_frontend.cpp</in>
+              <in>datalog_frontend.h</in>
+              <in>dimacs_frontend.cpp</in>
+              <in>dimacs_frontend.h</in>
+              <in>gparams_register_modules.cpp</in>
+              <in>install_tactic.cpp</in>
+              <in>lp_frontend.cpp</in>
+              <in>lp_frontend.h</in>
+              <in>main.cpp</in>
+              <in>mem_initializer.cpp</in>
+              <in>opt_frontend.cpp</in>
+              <in>opt_frontend.h</in>
+              <in>options.h</in>
+              <in>smtlib_frontend.cpp</in>
+              <in>smtlib_frontend.h</in>
+              <in>z3_log_frontend.cpp</in>
+              <in>z3_log_frontend.h</in>
+            </df>
+            <df name="smt">
+              <df name="params">
+                <in>dyn_ack_params.cpp</in>
+                <in>dyn_ack_params.h</in>
+                <in>preprocessor_params.cpp</in>
+                <in>preprocessor_params.h</in>
+                <in>qi_params.cpp</in>
+                <in>qi_params.h</in>
+                <in>smt_params.cpp</in>
+                <in>smt_params.h</in>
+                <in>smt_params_helper.hpp</in>
+                <in>theory_arith_params.cpp</in>
+                <in>theory_arith_params.h</in>
+                <in>theory_array_params.cpp</in>
+                <in>theory_array_params.h</in>
+                <in>theory_bv_params.cpp</in>
+                <in>theory_bv_params.h</in>
+                <in>theory_datatype_params.h</in>
+                <in>theory_pb_params.cpp</in>
+                <in>theory_pb_params.h</in>
+                <in>theory_seq_params.cpp</in>
+                <in>theory_seq_params.h</in>
+                <in>theory_str_params.cpp</in>
+                <in>theory_str_params.h</in>
+              </df>
+              <df name="proto_model">
+                <in>array_factory.cpp</in>
+                <in>array_factory.h</in>
+                <in>datatype_factory.cpp</in>
+                <in>datatype_factory.h</in>
+                <in>numeral_factory.cpp</in>
+                <in>numeral_factory.h</in>
+                <in>proto_model.cpp</in>
+                <in>proto_model.h</in>
+                <in>struct_factory.cpp</in>
+                <in>struct_factory.h</in>
+                <in>value_factory.cpp</in>
+                <in>value_factory.h</in>
+              </df>
+              <df name="tactic">
+                <in>ctx_solver_simplify_tactic.cpp</in>
+                <in>ctx_solver_simplify_tactic.h</in>
+                <in>smt_tactic.cpp</in>
+                <in>smt_tactic.h</in>
+                <in>unit_subsumption_tactic.cpp</in>
+                <in>unit_subsumption_tactic.h</in>
+              </df>
+              <in>arith_eq_adapter.cpp</in>
+              <in>arith_eq_adapter.h</in>
+              <in>arith_eq_solver.cpp</in>
+              <in>arith_eq_solver.h</in>
+              <in>asserted_formulas.cpp</in>
+              <in>asserted_formulas.h</in>
+              <in>cached_var_subst.cpp</in>
+              <in>cached_var_subst.h</in>
+              <in>cost_evaluator.cpp</in>
+              <in>cost_evaluator.h</in>
+              <in>database.h</in>
+              <in>diff_logic.h</in>
+              <in>dyn_ack.cpp</in>
+              <in>dyn_ack.h</in>
+              <in>elim_term_ite.cpp</in>
+              <in>elim_term_ite.h</in>
+              <in>expr_context_simplifier.cpp</in>
+              <in>expr_context_simplifier.h</in>
+              <in>fingerprints.cpp</in>
+              <in>fingerprints.h</in>
+              <in>mam.cpp</in>
+              <in>mam.h</in>
+              <in>old_interval.cpp</in>
+              <in>old_interval.h</in>
+              <in>qi_queue.cpp</in>
+              <in>qi_queue.h</in>
+              <in>smt2_extra_cmds.cpp</in>
+              <in>smt2_extra_cmds.h</in>
+              <in>smt_almost_cg_table.cpp</in>
+              <in>smt_almost_cg_table.h</in>
+              <in>smt_arith_value.cpp</in>
+              <in>smt_arith_value.h</in>
+              <in>smt_b_justification.h</in>
+              <in>smt_bool_var_data.h</in>
+              <in>smt_case_split_queue.cpp</in>
+              <in>smt_case_split_queue.h</in>
+              <in>smt_cg_table.cpp</in>
+              <in>smt_cg_table.h</in>
+              <in>smt_checker.cpp</in>
+              <in>smt_checker.h</in>
+              <in>smt_clause.cpp</in>
+              <in>smt_clause.h</in>
+              <in>smt_conflict_resolution.cpp</in>
+              <in>smt_conflict_resolution.h</in>
+              <in>smt_consequences.cpp</in>
+              <in>smt_context.cpp</in>
+              <in>smt_context.h</in>
+              <in>smt_context_inv.cpp</in>
+              <in>smt_context_pp.cpp</in>
+              <in>smt_context_stat.cpp</in>
+              <in>smt_enode.cpp</in>
+              <in>smt_enode.h</in>
+              <in>smt_eq_justification.h</in>
+              <in>smt_failure.h</in>
+              <in>smt_farkas_util.cpp</in>
+              <in>smt_farkas_util.h</in>
+              <in>smt_for_each_relevant_expr.cpp</in>
+              <in>smt_for_each_relevant_expr.h</in>
+              <in>smt_implied_equalities.cpp</in>
+              <in>smt_implied_equalities.h</in>
+              <in>smt_internalizer.cpp</in>
+              <in>smt_justification.cpp</in>
+              <in>smt_justification.h</in>
+              <in>smt_kernel.cpp</in>
+              <in>smt_kernel.h</in>
+              <in>smt_literal.cpp</in>
+              <in>smt_literal.h</in>
+              <in>smt_model_checker.cpp</in>
+              <in>smt_model_checker.h</in>
+              <in>smt_model_finder.cpp</in>
+              <in>smt_model_finder.h</in>
+              <in>smt_model_generator.cpp</in>
+              <in>smt_model_generator.h</in>
+              <in>smt_quantifier.cpp</in>
+              <in>smt_quantifier.h</in>
+              <in>smt_quantifier_instances.h</in>
+              <in>smt_quantifier_stat.cpp</in>
+              <in>smt_quantifier_stat.h</in>
+              <in>smt_quick_checker.cpp</in>
+              <in>smt_quick_checker.h</in>
+              <in>smt_relevancy.cpp</in>
+              <in>smt_relevancy.h</in>
+              <in>smt_setup.cpp</in>
+              <in>smt_setup.h</in>
+              <in>smt_solver.cpp</in>
+              <in>smt_solver.h</in>
+              <in>smt_statistics.cpp</in>
+              <in>smt_statistics.h</in>
+              <in>smt_theory.cpp</in>
+              <in>smt_theory.h</in>
+              <in>smt_theory_var_list.h</in>
+              <in>smt_types.h</in>
+              <in>smt_value_sort.cpp</in>
+              <in>smt_value_sort.h</in>
+              <in>spanning_tree.h</in>
+              <in>spanning_tree_base.h</in>
+              <in>spanning_tree_def.h</in>
+              <in>theory_arith.cpp</in>
+              <in>theory_arith.h</in>
+              <in>theory_arith_aux.h</in>
+              <in>theory_arith_core.h</in>
+              <in>theory_arith_def.h</in>
+              <in>theory_arith_eq.h</in>
+              <in>theory_arith_int.h</in>
+              <in>theory_arith_inv.h</in>
+              <in>theory_arith_nl.h</in>
+              <in>theory_arith_pp.h</in>
+              <in>theory_array.cpp</in>
+              <in>theory_array.h</in>
+              <in>theory_array_base.cpp</in>
+              <in>theory_array_base.h</in>
+              <in>theory_array_full.cpp</in>
+              <in>theory_array_full.h</in>
+              <in>theory_bv.cpp</in>
+              <in>theory_bv.h</in>
+              <in>theory_datatype.cpp</in>
+              <in>theory_datatype.h</in>
+              <in>theory_dense_diff_logic.cpp</in>
+              <in>theory_dense_diff_logic.h</in>
+              <in>theory_dense_diff_logic_def.h</in>
+              <in>theory_diff_logic.cpp</in>
+              <in>theory_diff_logic.h</in>
+              <in>theory_diff_logic_def.h</in>
+              <in>theory_dl.cpp</in>
+              <in>theory_dl.h</in>
+              <in>theory_dummy.cpp</in>
+              <in>theory_dummy.h</in>
+              <in>theory_fpa.cpp</in>
+              <in>theory_fpa.h</in>
+              <in>theory_jobscheduler.cpp</in>
+              <in>theory_jobscheduler.h</in>
+              <in>theory_lra.cpp</in>
+              <in>theory_lra.h</in>
+              <in>theory_opt.cpp</in>
+              <in>theory_opt.h</in>
+              <in>theory_pb.cpp</in>
+              <in>theory_pb.h</in>
+              <in>theory_recfun.cpp</in>
+              <in>theory_recfun.h</in>
+              <in>theory_seq.cpp</in>
+              <in>theory_seq.h</in>
+              <in>theory_seq_empty.h</in>
+              <in>theory_str.cpp</in>
+              <in>theory_str.h</in>
+              <in>theory_utvpi.cpp</in>
+              <in>theory_utvpi.h</in>
+              <in>theory_utvpi_def.h</in>
+              <in>theory_wmaxsat.cpp</in>
+              <in>theory_wmaxsat.h</in>
+              <in>uses_theory.cpp</in>
+              <in>uses_theory.h</in>
+              <in>watch_list.cpp</in>
+              <in>watch_list.h</in>
+            </df>
+            <df name="solver">
+              <in>check_sat_result.cpp</in>
+              <in>check_sat_result.h</in>
+              <in>combined_solver.cpp</in>
+              <in>combined_solver.h</in>
+              <in>combined_solver_params.hpp</in>
+              <in>mus.cpp</in>
+              <in>mus.h</in>
+              <in>parallel_params.hpp</in>
+              <in>parallel_tactic.cpp</in>
+              <in>parallel_tactic.h</in>
+              <in>progress_callback.h</in>
+              <in>smt_logics.cpp</in>
+              <in>smt_logics.h</in>
+              <in>solver.cpp</in>
+              <in>solver.h</in>
+              <in>solver2tactic.cpp</in>
+              <in>solver2tactic.h</in>
+              <in>solver_na2as.cpp</in>
+              <in>solver_na2as.h</in>
+              <in>solver_pool.cpp</in>
+              <in>solver_pool.h</in>
+              <in>tactic2solver.cpp</in>
+              <in>tactic2solver.h</in>
+            </df>
+            <df name="tactic">
+              <df name="aig">
+                <in>aig.cpp</in>
+                <in>aig.h</in>
+                <in>aig_tactic.cpp</in>
+                <in>aig_tactic.h</in>
+              </df>
+              <df name="arith">
+                <in>add_bounds_tactic.cpp</in>
+                <in>add_bounds_tactic.h</in>
+                <in>arith_bounds_tactic.cpp</in>
+                <in>arith_bounds_tactic.h</in>
+                <in>bound_manager.cpp</in>
+                <in>bound_manager.h</in>
+                <in>bound_propagator.cpp</in>
+                <in>bound_propagator.h</in>
+                <in>bv2int_rewriter.cpp</in>
+                <in>bv2int_rewriter.h</in>
+                <in>bv2real_rewriter.cpp</in>
+                <in>bv2real_rewriter.h</in>
+                <in>card2bv_tactic.cpp</in>
+                <in>card2bv_tactic.h</in>
+                <in>degree_shift_tactic.cpp</in>
+                <in>degree_shift_tactic.h</in>
+                <in>diff_neq_tactic.cpp</in>
+                <in>diff_neq_tactic.h</in>
+                <in>eq2bv_tactic.cpp</in>
+                <in>eq2bv_tactic.h</in>
+                <in>factor_tactic.cpp</in>
+                <in>factor_tactic.h</in>
+                <in>fix_dl_var_tactic.cpp</in>
+                <in>fix_dl_var_tactic.h</in>
+                <in>fm_tactic.cpp</in>
+                <in>fm_tactic.h</in>
+                <in>lia2card_tactic.cpp</in>
+                <in>lia2card_tactic.h</in>
+                <in>lia2pb_tactic.cpp</in>
+                <in>lia2pb_tactic.h</in>
+                <in>linear_equation.cpp</in>
+                <in>linear_equation.h</in>
+                <in>nla2bv_tactic.cpp</in>
+                <in>nla2bv_tactic.h</in>
+                <in>normalize_bounds_tactic.cpp</in>
+                <in>normalize_bounds_tactic.h</in>
+                <in>pb2bv_model_converter.cpp</in>
+                <in>pb2bv_model_converter.h</in>
+                <in>pb2bv_tactic.cpp</in>
+                <in>pb2bv_tactic.h</in>
+                <in>probe_arith.cpp</in>
+                <in>probe_arith.h</in>
+                <in>propagate_ineqs_tactic.cpp</in>
+                <in>propagate_ineqs_tactic.h</in>
+                <in>purify_arith_tactic.cpp</in>
+                <in>purify_arith_tactic.h</in>
+                <in>recover_01_tactic.cpp</in>
+                <in>recover_01_tactic.h</in>
+              </df>
+              <df name="bv">
+                <in>bit_blaster_model_converter.cpp</in>
+                <in>bit_blaster_model_converter.h</in>
+                <in>bit_blaster_tactic.cpp</in>
+                <in>bit_blaster_tactic.h</in>
+                <in>bv1_blaster_tactic.cpp</in>
+                <in>bv1_blaster_tactic.h</in>
+                <in>bv_bound_chk_tactic.cpp</in>
+                <in>bv_bound_chk_tactic.h</in>
+                <in>bv_bounds_tactic.cpp</in>
+                <in>bv_bounds_tactic.h</in>
+                <in>bv_size_reduction_tactic.cpp</in>
+                <in>bv_size_reduction_tactic.h</in>
+                <in>bvarray2uf_rewriter.cpp</in>
+                <in>bvarray2uf_rewriter.h</in>
+                <in>bvarray2uf_tactic.cpp</in>
+                <in>bvarray2uf_tactic.h</in>
+                <in>dt2bv_tactic.cpp</in>
+                <in>dt2bv_tactic.h</in>
+                <in>elim_small_bv_tactic.cpp</in>
+                <in>elim_small_bv_tactic.h</in>
+                <in>max_bv_sharing_tactic.cpp</in>
+                <in>max_bv_sharing_tactic.h</in>
+              </df>
+              <df name="core">
+                <in>blast_term_ite_tactic.cpp</in>
+                <in>blast_term_ite_tactic.h</in>
+                <in>cofactor_elim_term_ite.cpp</in>
+                <in>cofactor_elim_term_ite.h</in>
+                <in>cofactor_term_ite_tactic.cpp</in>
+                <in>cofactor_term_ite_tactic.h</in>
+                <in>collect_occs.cpp</in>
+                <in>collect_occs.h</in>
+                <in>collect_statistics_tactic.cpp</in>
+                <in>collect_statistics_tactic.h</in>
+                <in>ctx_simplify_tactic.cpp</in>
+                <in>ctx_simplify_tactic.h</in>
+                <in>der_tactic.cpp</in>
+                <in>der_tactic.h</in>
+                <in>distribute_forall_tactic.cpp</in>
+                <in>distribute_forall_tactic.h</in>
+                <in>dom_simplify_tactic.cpp</in>
+                <in>dom_simplify_tactic.h</in>
+                <in>elim_term_ite_tactic.cpp</in>
+                <in>elim_term_ite_tactic.h</in>
+                <in>elim_uncnstr_tactic.cpp</in>
+                <in>elim_uncnstr_tactic.h</in>
+                <in>injectivity_tactic.cpp</in>
+                <in>injectivity_tactic.h</in>
+                <in>nnf_tactic.cpp</in>
+                <in>nnf_tactic.h</in>
+                <in>occf_tactic.cpp</in>
+                <in>occf_tactic.h</in>
+                <in>pb_preprocess_tactic.cpp</in>
+                <in>pb_preprocess_tactic.h</in>
+                <in>propagate_values_tactic.cpp</in>
+                <in>propagate_values_tactic.h</in>
+                <in>reduce_args_tactic.cpp</in>
+                <in>reduce_args_tactic.h</in>
+                <in>reduce_invertible_tactic.cpp</in>
+                <in>reduce_invertible_tactic.h</in>
+                <in>simplify_tactic.cpp</in>
+                <in>simplify_tactic.h</in>
+                <in>solve_eqs_tactic.cpp</in>
+                <in>solve_eqs_tactic.h</in>
+                <in>split_clause_tactic.cpp</in>
+                <in>split_clause_tactic.h</in>
+                <in>symmetry_reduce_tactic.cpp</in>
+                <in>symmetry_reduce_tactic.h</in>
+                <in>tseitin_cnf_tactic.cpp</in>
+                <in>tseitin_cnf_tactic.h</in>
+              </df>
+              <df name="fd_solver">
+                <in>bounded_int2bv_solver.cpp</in>
+                <in>bounded_int2bv_solver.h</in>
+                <in>enum2bv_solver.cpp</in>
+                <in>enum2bv_solver.h</in>
+                <in>fd_solver.cpp</in>
+                <in>fd_solver.h</in>
+                <in>pb2bv_solver.cpp</in>
+                <in>pb2bv_solver.h</in>
+              </df>
+              <df name="fpa">
+                <in>fpa2bv_model_converter.cpp</in>
+                <in>fpa2bv_model_converter.h</in>
+                <in>fpa2bv_tactic.cpp</in>
+                <in>fpa2bv_tactic.h</in>
+                <in>qffp_tactic.cpp</in>
+                <in>qffp_tactic.h</in>
+                <in>qffplra_tactic.cpp</in>
+                <in>qffplra_tactic.h</in>
+              </df>
+              <df name="portfolio">
+                <in>default_tactic.cpp</in>
+                <in>default_tactic.h</in>
+                <in>smt_strategic_solver.cpp</in>
+                <in>smt_strategic_solver.h</in>
+                <in>solver2lookahead.cpp</in>
+                <in>solver2lookahead.h</in>
+              </df>
+              <df name="sls">
+                <in>bvsls_opt_engine.cpp</in>
+                <in>bvsls_opt_engine.h</in>
+                <in>sls_engine.cpp</in>
+                <in>sls_engine.h</in>
+                <in>sls_evaluator.h</in>
+                <in>sls_params.hpp</in>
+                <in>sls_powers.h</in>
+                <in>sls_tactic.cpp</in>
+                <in>sls_tactic.h</in>
+                <in>sls_tracker.h</in>
+              </df>
+              <df name="smtlogics">
+                <in>nra_tactic.cpp</in>
+                <in>nra_tactic.h</in>
+                <in>qfaufbv_tactic.cpp</in>
+                <in>qfaufbv_tactic.h</in>
+                <in>qfauflia_tactic.cpp</in>
+                <in>qfauflia_tactic.h</in>
+                <in>qfbv_tactic.cpp</in>
+                <in>qfbv_tactic.h</in>
+                <in>qfidl_tactic.cpp</in>
+                <in>qfidl_tactic.h</in>
+                <in>qflia_tactic.cpp</in>
+                <in>qflia_tactic.h</in>
+                <in>qflra_tactic.cpp</in>
+                <in>qflra_tactic.h</in>
+                <in>qfnia_tactic.cpp</in>
+                <in>qfnia_tactic.h</in>
+                <in>qfnra_tactic.cpp</in>
+                <in>qfnra_tactic.h</in>
+                <in>qfuf_tactic.cpp</in>
+                <in>qfuf_tactic.h</in>
+                <in>qfufbv_ackr_model_converter.cpp</in>
+                <in>qfufbv_ackr_model_converter.h</in>
+                <in>qfufbv_tactic.cpp</in>
+                <in>qfufbv_tactic.h</in>
+                <in>qfufbv_tactic_params.hpp</in>
+                <in>quant_tactics.cpp</in>
+                <in>quant_tactics.h</in>
+              </df>
+              <df name="ufbv">
+                <in>macro_finder_tactic.cpp</in>
+                <in>macro_finder_tactic.h</in>
+                <in>quasi_macros_tactic.cpp</in>
+                <in>quasi_macros_tactic.h</in>
+                <in>ufbv_rewriter.cpp</in>
+                <in>ufbv_rewriter.h</in>
+                <in>ufbv_rewriter_tactic.cpp</in>
+                <in>ufbv_rewriter_tactic.h</in>
+                <in>ufbv_tactic.cpp</in>
+                <in>ufbv_tactic.h</in>
+              </df>
+              <in>converter.h</in>
+              <in>dependency_converter.cpp</in>
+              <in>dependency_converter.h</in>
+              <in>equiv_proof_converter.cpp</in>
+              <in>equiv_proof_converter.h</in>
+              <in>filter_model_converter.h</in>
+              <in>generic_model_converter.cpp</in>
+              <in>generic_model_converter.h</in>
+              <in>goal.cpp</in>
+              <in>goal.h</in>
+              <in>goal_num_occurs.cpp</in>
+              <in>goal_num_occurs.h</in>
+              <in>goal_shared_occs.cpp</in>
+              <in>goal_shared_occs.h</in>
+              <in>goal_util.cpp</in>
+              <in>goal_util.h</in>
+              <in>horn_subsume_model_converter.cpp</in>
+              <in>horn_subsume_model_converter.h</in>
+              <in>model_converter.cpp</in>
+              <in>model_converter.h</in>
+              <in>probe.cpp</in>
+              <in>probe.h</in>
+              <in>proof_converter.cpp</in>
+              <in>proof_converter.h</in>
+              <in>replace_proof_converter.cpp</in>
+              <in>replace_proof_converter.h</in>
+              <in>sine_filter.cpp</in>
+              <in>sine_filter.h</in>
+              <in>tactic.cpp</in>
+              <in>tactic.h</in>
+              <in>tactic_exception.h</in>
+              <in>tactical.cpp</in>
+              <in>tactical.h</in>
+            </df>
+            <df name="test">
+              <df name="fuzzing">
+                <in>expr_delta.cpp</in>
+                <in>expr_delta.h</in>
+                <in>expr_rand.cpp</in>
+                <in>expr_rand.h</in>
+              </df>
+              <df name="lp">
+                <in>argument_parser.h</in>
+                <in>gomory_test.h</in>
+                <in>lp.cpp</in>
+                <in>lp_main.cpp</in>
+                <in>smt_reader.h</in>
+                <in>test_file_reader.h</in>
+              </df>
+              <in>algebraic.cpp</in>
+              <in>api.cpp</in>
+              <in>api_bug.cpp</in>
+              <in>arith_rewriter.cpp</in>
+              <in>arith_simplifier_plugin.cpp</in>
+              <in>ast.cpp</in>
+              <in>bdd.cpp</in>
+              <in>bit_blaster.cpp</in>
+              <in>bit_vector.cpp</in>
+              <in>bits.cpp</in>
+              <in>buffer.cpp</in>
+              <in>chashtable.cpp</in>
+              <in>check_assumptions.cpp</in>
+              <in>cnf_backbones.cpp</in>
+              <in>cube_clause.cpp</in>
+              <in>datalog_parser.cpp</in>
+              <in>ddnf.cpp</in>
+              <in>diff_logic.cpp</in>
+              <in>dl_context.cpp</in>
+              <in>dl_product_relation.cpp</in>
+              <in>dl_query.cpp</in>
+              <in>dl_relation.cpp</in>
+              <in>dl_table.cpp</in>
+              <in>dl_util.cpp</in>
+              <in>doc.cpp</in>
+              <in>escaped.cpp</in>
+              <in>ex.cpp</in>
+              <in>expr_rand.cpp</in>
+              <in>expr_substitution.cpp</in>
+              <in>ext_numeral.cpp</in>
+              <in>f2n.cpp</in>
+              <in>factor_rewriter.cpp</in>
+              <in>fixed_bit_vector.cpp</in>
+              <in>for_each_file.cpp</in>
+              <in>for_each_file.h</in>
+              <in>get_consequences.cpp</in>
+              <in>get_implied_equalities.cpp</in>
+              <in>gparams_register_modules.cpp</in>
+              <in>hashtable.cpp</in>
+              <in>heap.cpp</in>
+              <in>heap_trie.cpp</in>
+              <in>hilbert_basis.cpp</in>
+              <in>horn_subsume_model_converter.cpp</in>
+              <in>hwf.cpp</in>
+              <in>im_float_config.h</in>
+              <in>inf_rational.cpp</in>
+              <in>install_tactic.cpp</in>
+              <in>interval.cpp</in>
+              <in>karr.cpp</in>
+              <in>list.cpp</in>
+              <in>main.cpp</in>
+              <in>map.cpp</in>
+              <in>matcher.cpp</in>
+              <in>mem_initializer.cpp</in>
+              <in>memory.cpp</in>
+              <in>model2expr.cpp</in>
+              <in>model_based_opt.cpp</in>
+              <in>model_evaluator.cpp</in>
+              <in>model_retrieval.cpp</in>
+              <in>mpbq.cpp</in>
+              <in>mpf.cpp</in>
+              <in>mpff.cpp</in>
+              <in>mpfx.cpp</in>
+              <in>mpq.cpp</in>
+              <in>mpz.cpp</in>
+              <in>nlarith_util.cpp</in>
+              <in>nlsat.cpp</in>
+              <in>no_overflow.cpp</in>
+              <in>object_allocator.cpp</in>
+              <in>old_interval.cpp</in>
+              <in>optional.cpp</in>
+              <in>parray.cpp</in>
+              <in>pb2bv.cpp</in>
+              <in>permutation.cpp</in>
+              <in>polynomial.cpp</in>
+              <in>polynorm.cpp</in>
+              <in>prime_generator.cpp</in>
+              <in>proof_checker.cpp</in>
+              <in>qe_arith.cpp</in>
+              <in>quant_elim.cpp</in>
+              <in>quant_solve.cpp</in>
+              <in>random.cpp</in>
+              <in>rational.cpp</in>
+              <in>rcf.cpp</in>
+              <in>region.cpp</in>
+              <in>sat_local_search.cpp</in>
+              <in>sat_lookahead.cpp</in>
+              <in>sat_user_scope.cpp</in>
+              <in>simple_parser.cpp</in>
+              <in>simplex.cpp</in>
+              <in>simplifier.cpp</in>
+              <in>small_object_allocator.cpp</in>
+              <in>smt2print_parse.cpp</in>
+              <in>smt_context.cpp</in>
+              <in>solver_pool.cpp</in>
+              <in>sorting_network.cpp</in>
+              <in>stack.cpp</in>
+              <in>string_buffer.cpp</in>
+              <in>substitution.cpp</in>
+              <in>symbol.cpp</in>
+              <in>symbol_table.cpp</in>
+              <in>tbv.cpp</in>
+              <in>test_util.h</in>
+              <in>theory_dl.cpp</in>
+              <in>theory_pb.cpp</in>
+              <in>timeout.cpp</in>
+              <in>total_order.cpp</in>
+              <in>trigo.cpp</in>
+              <in>udoc_relation.cpp</in>
+              <in>uint_set.cpp</in>
+              <in>upolynomial.cpp</in>
+              <in>var_subst.cpp</in>
+              <in>vector.cpp</in>
+            </df>
+            <df name="util">
+              <df name="lp">
+                <in>active_set.h</in>
+                <in>binary_heap_priority_queue.cpp</in>
+                <in>binary_heap_priority_queue.h</in>
+                <in>binary_heap_priority_queue_def.h</in>
+                <in>binary_heap_upair_queue.cpp</in>
+                <in>binary_heap_upair_queue.h</in>
+                <in>binary_heap_upair_queue_def.h</in>
+                <in>bound_analyzer_on_row.h</in>
+                <in>bound_propagator.h</in>
+                <in>breakpoint.h</in>
+                <in>column_info.h</in>
+                <in>column_namer.h</in>
+                <in>constraint.h</in>
+                <in>conversion_helper.h</in>
+                <in>core_solver_pretty_printer.cpp</in>
+                <in>core_solver_pretty_printer.h</in>
+                <in>core_solver_pretty_printer_def.h</in>
+                <in>dense_matrix.cpp</in>
+                <in>dense_matrix.h</in>
+                <in>dense_matrix_def.h</in>
+                <in>eta_matrix.cpp</in>
+                <in>eta_matrix.h</in>
+                <in>eta_matrix_def.h</in>
+                <in>explanation.h</in>
+                <in>general_matrix.h</in>
+                <in>gomory.cpp</in>
+                <in>gomory.h</in>
+                <in>hnf.h</in>
+                <in>hnf_cutter.h</in>
+                <in>implied_bound.h</in>
+                <in>indexed_value.h</in>
+                <in>indexed_vector.cpp</in>
+                <in>indexed_vector.h</in>
+                <in>indexed_vector_def.h</in>
+                <in>indexer_of_constraints.h</in>
+                <in>int_set.h</in>
+                <in>int_solver.cpp</in>
+                <in>int_solver.h</in>
+                <in>lar_constraints.h</in>
+                <in>lar_core_solver.cpp</in>
+                <in>lar_core_solver.h</in>
+                <in>lar_core_solver_def.h</in>
+                <in>lar_solution_signature.h</in>
+                <in>lar_solver.cpp</in>
+                <in>lar_solver.h</in>
+                <in>lar_term.h</in>
+                <in>lia_move.h</in>
+                <in>lp_bound_propagator.cpp</in>
+                <in>lp_core_solver_base.cpp</in>
+                <in>lp_core_solver_base.h</in>
+                <in>lp_core_solver_base_def.h</in>
+                <in>lp_dual_core_solver.cpp</in>
+                <in>lp_dual_core_solver.h</in>
+                <in>lp_dual_core_solver_def.h</in>
+                <in>lp_dual_simplex.cpp</in>
+                <in>lp_dual_simplex.h</in>
+                <in>lp_dual_simplex_def.h</in>
+                <in>lp_params.hpp</in>
+                <in>lp_primal_core_solver.cpp</in>
+                <in>lp_primal_core_solver.h</in>
+                <in>lp_primal_core_solver_def.h</in>
+                <in>lp_primal_core_solver_tableau_def.h</in>
+                <in>lp_primal_simplex.cpp</in>
+                <in>lp_primal_simplex.h</in>
+                <in>lp_primal_simplex_def.h</in>
+                <in>lp_settings.cpp</in>
+                <in>lp_settings.h</in>
+                <in>lp_settings_def.h</in>
+                <in>lp_solver.cpp</in>
+                <in>lp_solver.h</in>
+                <in>lp_solver_def.h</in>
+                <in>lp_utils.cpp</in>
+                <in>lp_utils.h</in>
+                <in>lu.cpp</in>
+                <in>lu.h</in>
+                <in>lu_def.h</in>
+                <in>matrix.cpp</in>
+                <in>matrix.h</in>
+                <in>matrix_def.h</in>
+                <in>monomial.h</in>
+                <in>mps_reader.h</in>
+                <in>nra_solver.cpp</in>
+                <in>nra_solver.h</in>
+                <in>numeric_pair.h</in>
+                <in>permutation_matrix.cpp</in>
+                <in>permutation_matrix.h</in>
+                <in>permutation_matrix_def.h</in>
+                <in>polynomial.h</in>
+                <in>random_updater.cpp</in>
+                <in>random_updater.h</in>
+                <in>random_updater_def.h</in>
+                <in>row_eta_matrix.cpp</in>
+                <in>row_eta_matrix.h</in>
+                <in>row_eta_matrix_def.h</in>
+                <in>scaler.cpp</in>
+                <in>scaler.h</in>
+                <in>scaler_def.h</in>
+                <in>signature_bound_evidence.h</in>
+                <in>sparse_vector.h</in>
+                <in>square_dense_submatrix.cpp</in>
+                <in>square_dense_submatrix.h</in>
+                <in>square_dense_submatrix_def.h</in>
+                <in>square_sparse_matrix.cpp</in>
+                <in>square_sparse_matrix.h</in>
+                <in>square_sparse_matrix_def.h</in>
+                <in>stacked_value.h</in>
+                <in>stacked_vector.h</in>
+                <in>static_matrix.cpp</in>
+                <in>static_matrix.h</in>
+                <in>static_matrix_def.h</in>
+                <in>tail_matrix.h</in>
+                <in>test_bound_analyzer.h</in>
+                <in>ul_pair.h</in>
+                <in>var_register.h</in>
+              </df>
+              <in>approx_nat.cpp</in>
+              <in>approx_nat.h</in>
+              <in>approx_set.cpp</in>
+              <in>approx_set.h</in>
+              <in>array.h</in>
+              <in>array_map.h</in>
+              <in>backtrackable_set.h</in>
+              <in>basic_interval.h</in>
+              <in>bit_util.cpp</in>
+              <in>bit_util.h</in>
+              <in>bit_vector.cpp</in>
+              <in>bit_vector.h</in>
+              <in>buffer.h</in>
+              <in>cancel_eh.h</in>
+              <in>chashtable.h</in>
+              <in>checked_int64.h</in>
+              <in>cmd_context_types.cpp</in>
+              <in>cmd_context_types.h</in>
+              <in>common_msgs.cpp</in>
+              <in>common_msgs.h</in>
+              <in>container_util.h</in>
+              <in>cooperate.cpp</in>
+              <in>cooperate.h</in>
+              <in>critical_flet.h</in>
+              <in>debug.cpp</in>
+              <in>debug.h</in>
+              <in>dec_ref_util.h</in>
+              <in>dependency.h</in>
+              <in>dictionary.h</in>
+              <in>dlist.h</in>
+              <in>double_manager.h</in>
+              <in>ema.h</in>
+              <in>env_params.cpp</in>
+              <in>env_params.h</in>
+              <in>error_codes.h</in>
+              <in>event_handler.h</in>
+              <in>ext_gcd.h</in>
+              <in>ext_numeral.h</in>
+              <in>f2n.h</in>
+              <in>file_path.h</in>
+              <in>fixed_bit_vector.cpp</in>
+              <in>fixed_bit_vector.h</in>
+              <in>gparams.cpp</in>
+              <in>gparams.h</in>
+              <in>hash.cpp</in>
+              <in>hash.h</in>
+              <in>hashtable.h</in>
+              <in>heap.h</in>
+              <in>hwf.cpp</in>
+              <in>hwf.h</in>
+              <in>id_gen.h</in>
+              <in>inf_eps_rational.h</in>
+              <in>inf_int_rational.cpp</in>
+              <in>inf_int_rational.h</in>
+              <in>inf_rational.cpp</in>
+              <in>inf_rational.h</in>
+              <in>inf_s_integer.cpp</in>
+              <in>inf_s_integer.h</in>
+              <in>lbool.cpp</in>
+              <in>lbool.h</in>
+              <in>list.h</in>
+              <in>luby.cpp</in>
+              <in>luby.h</in>
+              <in>machine.h</in>
+              <in>map.h</in>
+              <in>max_cliques.h</in>
+              <in>memory_manager.cpp</in>
+              <in>memory_manager.h</in>
+              <in>min_cut.cpp</in>
+              <in>min_cut.h</in>
+              <in>mpbq.cpp</in>
+              <in>mpbq.h</in>
+              <in>mpbqi.h</in>
+              <in>mpf.cpp</in>
+              <in>mpf.h</in>
+              <in>mpff.cpp</in>
+              <in>mpff.h</in>
+              <in>mpfx.cpp</in>
+              <in>mpfx.h</in>
+              <in>mpn.cpp</in>
+              <in>mpn.h</in>
+              <in>mpq.cpp</in>
+              <in>mpq.h</in>
+              <in>mpq_inf.cpp</in>
+              <in>mpq_inf.h</in>
+              <in>mpz.cpp</in>
+              <in>mpz.h</in>
+              <in>mpzzp.h</in>
+              <in>nat_set.h</in>
+              <in>numeral_buffer.h</in>
+              <in>obj_hashtable.h</in>
+              <in>obj_mark.h</in>
+              <in>obj_pair_hashtable.h</in>
+              <in>obj_pair_set.h</in>
+              <in>obj_ref.h</in>
+              <in>obj_ref_hashtable.h</in>
+              <in>obj_triple_hashtable.h</in>
+              <in>object_allocator.h</in>
+              <in>optional.h</in>
+              <in>page.cpp</in>
+              <in>page.h</in>
+              <in>params.cpp</in>
+              <in>params.h</in>
+              <in>parray.h</in>
+              <in>permutation.cpp</in>
+              <in>permutation.h</in>
+              <in>plugin_manager.h</in>
+              <in>pool.h</in>
+              <in>pop_scopes.h</in>
+              <in>prime_generator.cpp</in>
+              <in>prime_generator.h</in>
+              <in>ptr_scoped_buffer.h</in>
+              <in>queue.h</in>
+              <in>rational.cpp</in>
+              <in>rational.h</in>
+              <in>ref.h</in>
+              <in>ref_buffer.h</in>
+              <in>ref_util.h</in>
+              <in>ref_vector.h</in>
+              <in>region.cpp</in>
+              <in>region.h</in>
+              <in>resource_limit.h</in>
+              <in>rlimit.cpp</in>
+              <in>rlimit.h</in>
+              <in>s_integer.cpp</in>
+              <in>s_integer.h</in>
+              <in>scoped_ctrl_c.cpp</in>
+              <in>scoped_ctrl_c.h</in>
+              <in>scoped_numeral.h</in>
+              <in>scoped_numeral_buffer.h</in>
+              <in>scoped_numeral_vector.h</in>
+              <in>scoped_ptr_vector.h</in>
+              <in>scoped_timer.cpp</in>
+              <in>scoped_timer.h</in>
+              <in>scoped_vector.h</in>
+              <in>sexpr.cpp</in>
+              <in>sexpr.h</in>
+              <in>small_object_allocator.cpp</in>
+              <in>small_object_allocator.h</in>
+              <in>smt2_util.cpp</in>
+              <in>smt2_util.h</in>
+              <in>sorting_network.h</in>
+              <in>sstream.h</in>
+              <in>stack.cpp</in>
+              <in>stack.h</in>
+              <in>statistics.cpp</in>
+              <in>statistics.h</in>
+              <in>stats.h</in>
+              <in>stopwatch.h</in>
+              <in>str_hashtable.h</in>
+              <in>stream_buffer.h</in>
+              <in>string_buffer.h</in>
+              <in>symbol.cpp</in>
+              <in>symbol.h</in>
+              <in>symbol_table.h</in>
+              <in>timeit.cpp</in>
+              <in>timeit.h</in>
+              <in>timeout.cpp</in>
+              <in>timeout.h</in>
+              <in>timer.cpp</in>
+              <in>timer.h</in>
+              <in>top_sort.h</in>
+              <in>total_order.h</in>
+              <in>tptr.h</in>
+              <in>trace.cpp</in>
+              <in>trace.h</in>
+              <in>trail.h</in>
+              <in>uint_map.h</in>
+              <in>uint_set.h</in>
+              <in>union_find.h</in>
+              <in>util.cpp</in>
+              <in>util.h</in>
+              <in>vector.h</in>
+              <in>warning.cpp</in>
+              <in>warning.h</in>
+              <in>z3_exception.cpp</in>
+              <in>z3_exception.h</in>
+              <in>z3_omp.h</in>
+              <in>z3_version.h</in>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="scripts">
+      </df>
+      <df name="src">
+        <df name="algo">
+          <in>exact_pr.cpp</in>
+          <in>exact_pr.h</in>
+          <in>exact_pr_config.h</in>
+          <in>migorthogonal_pr.cpp</in>
+          <in>migorthogonal_pr.h</in>
+          <in>orthogonal_pr.cpp</in>
+          <in>orthogonal_pr.h</in>
+          <in>place_route.h</in>
+        </df>
+        <df name="io">
+          <in>commands.h</in>
+          <in>qca_writer.cpp</in>
+          <in>qca_writer.h</in>
+          <in>stores.h</in>
+          <in>svg_writer.cpp</in>
+          <in>svg_writer.h</in>
+          <in>verilog_parser.h</in>
+        </df>
+        <df name="tech">
+          <in>energy_model.h</in>
+          <in>fcn_cell_layout.cpp</in>
+          <in>fcn_cell_layout.h</in>
+          <in>fcn_cell_types.h</in>
+          <in>fcn_gate_library.cpp</in>
+          <in>fcn_gate_library.h</in>
+          <in>fcn_technology.cpp</in>
+          <in>fcn_technology.h</in>
+          <in>port_router.cpp</in>
+          <in>port_router.h</in>
+          <in>qca_one_library.cpp</in>
+          <in>qca_one_library.h</in>
+        </df>
+        <df name="topo">
+          <in>bidirectional_graph.h</in>
+          <in>directions.cpp</in>
+          <in>directions.h</in>
+          <in>fcn_clocking_scheme.cpp</in>
+          <in>fcn_clocking_scheme.h</in>
+          <in>fcn_gate_layout.cpp</in>
+          <in>fcn_gate_layout.h</in>
+          <in>fcn_layout.cpp</in>
+          <in>fcn_layout.h</in>
+          <in>grid_graph.h</in>
+          <in>grid_topology.h</in>
+          <in>logic_network.cpp</in>
+          <in>logic_network.h</in>
+          <in>operations.cpp</in>
+          <in>operations.h</in>
+        </df>
+        <df name="util">
+          <in>range.h</in>
+        </df>
+        <in>aig.hpp</in>
+        <in>aigOptimization.hpp</in>
+        <in>fiction.cpp</in>
+        <in>filetypes.hpp</in>
+        <in>mig.hpp</in>
+        <in>migOptimization.hpp</in>
+        <in>parsers.hpp</in>
+        <in>version.hpp</in>
+      </df>
+      <df name="util">
+        <in>version.h</in>
+      </df>
+      <df name="z3">
+        <df name="bin">
+        </df>
+        <df name="include">
+          <in>z3++.h</in>
+          <in>z3.h</in>
+          <in>z3_algebraic.h</in>
+          <in>z3_api.h</in>
+          <in>z3_ast_containers.h</in>
+          <in>z3_fixedpoint.h</in>
+          <in>z3_fpa.h</in>
+          <in>z3_macros.h</in>
+          <in>z3_optimization.h</in>
+          <in>z3_polynomial.h</in>
+          <in>z3_rcf.h</in>
+          <in>z3_spacer.h</in>
+          <in>z3_v1.h</in>
+          <in>z3_version.h</in>
+        </df>
+        <df name="lib">
+        </df>
+      </df>
+      <df name="z3-prefix">
+        <df name="src">
+          <df name="z3-stamp">
+          </df>
+        </df>
+        <df name="tmp">
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

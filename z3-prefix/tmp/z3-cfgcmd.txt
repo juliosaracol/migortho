@@ -1,0 +1,1 @@
+cmd='env;CC=;CXX=/usr/bin/c++;./configure;-p;<INSTALL_DIR>;-b;build;--staticlib'

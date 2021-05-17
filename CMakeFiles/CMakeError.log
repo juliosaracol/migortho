@@ -1,0 +1,581 @@
+Performing C++ SOURCE FILE Test HAS_FCOLOR_DIAGNOSTICS failed with the following output:
+Change Dir: /home/julio/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97f43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97f43.dir/build.make CMakeFiles/cmTC_97f43.dir/build
+make[1]: Entering directory '/home/julio/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_97f43.dir/src.cxx.o
+/usr/bin/g++    -DHAS_FCOLOR_DIAGNOSTICS   -fcolor-diagnostics -o CMakeFiles/cmTC_97f43.dir/src.cxx.o -c /home/julio/fiction/CMakeFiles/CMakeTmp/src.cxx
+g++: error: unrecognized command line option '-fcolor-diagnostics'
+CMakeFiles/cmTC_97f43.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_97f43.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_97f43.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/julio/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_97f43/fast' failed
+make: *** [cmTC_97f43/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/julio/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bed69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bed69.dir/build.make CMakeFiles/cmTC_bed69.dir/build
+make[1]: Entering directory '/home/julio/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bed69.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_bed69.dir/CheckSymbolExists.cxx.o -c /home/julio/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_bed69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bed69.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_bed69.dir/CheckSymbolExists.cxx.o  -o cmTC_bed69 
+CMakeFiles/cmTC_bed69.dir/CheckSymbolExists.cxx.o: Na função "main":
+CheckSymbolExists.cxx:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bed69.dir/build.make:97: recipe for target 'cmTC_bed69' failed
+make[1]: *** [cmTC_bed69] Error 1
+make[1]: Leaving directory '/home/julio/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bed69/fast' failed
+make: *** [cmTC_bed69/fast] Error 2
+
+File /home/julio/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAS_FCOLOR_DIAGNOSTICS failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82911/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82911.dir/build.make CMakeFiles/cmTC_82911.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_82911.dir/src.cxx.o
+/usr/bin/c++    -DHAS_FCOLOR_DIAGNOSTICS   -fcolor-diagnostics -o CMakeFiles/cmTC_82911.dir/src.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fcolor-diagnostics'
+CMakeFiles/cmTC_82911.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_82911.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_82911.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_82911/fast' failed
+make: *** [cmTC_82911/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc746/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc746.dir/build.make CMakeFiles/cmTC_bc746.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bc746.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_bc746.dir/CheckSymbolExists.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_bc746
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc746.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_bc746.dir/CheckSymbolExists.cxx.o  -o cmTC_bc746 
+CMakeFiles/cmTC_bc746.dir/CheckSymbolExists.cxx.o: Na função "main":
+CheckSymbolExists.cxx:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bc746.dir/build.make:97: recipe for target 'cmTC_bc746' failed
+make[1]: *** [cmTC_bc746] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bc746/fast' failed
+make: *** [cmTC_bc746/fast] Error 2
+
+File /home/julio/tools/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAS_FCOLOR_DIAGNOSTICS failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72cbc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72cbc.dir/build.make CMakeFiles/cmTC_72cbc.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_72cbc.dir/src.cxx.o
+/usr/bin/c++    -DHAS_FCOLOR_DIAGNOSTICS   -fcolor-diagnostics -o CMakeFiles/cmTC_72cbc.dir/src.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fcolor-diagnostics'
+CMakeFiles/cmTC_72cbc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_72cbc.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_72cbc.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_72cbc/fast' failed
+make: *** [cmTC_72cbc/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de5ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de5ed.dir/build.make CMakeFiles/cmTC_de5ed.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_de5ed.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_de5ed.dir/CheckSymbolExists.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_de5ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de5ed.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_de5ed.dir/CheckSymbolExists.cxx.o  -o cmTC_de5ed 
+CMakeFiles/cmTC_de5ed.dir/CheckSymbolExists.cxx.o: Na função "main":
+CheckSymbolExists.cxx:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_de5ed.dir/build.make:97: recipe for target 'cmTC_de5ed' failed
+make[1]: *** [cmTC_de5ed] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_de5ed/fast' failed
+make: *** [cmTC_de5ed/fast] Error 2
+
+File /home/julio/tools/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAS_FCOLOR_DIAGNOSTICS failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd104/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fd104.dir/build.make CMakeFiles/cmTC_fd104.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fd104.dir/src.cxx.o
+/usr/bin/c++    -DHAS_FCOLOR_DIAGNOSTICS   -fcolor-diagnostics -o CMakeFiles/cmTC_fd104.dir/src.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fcolor-diagnostics'
+CMakeFiles/cmTC_fd104.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_fd104.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_fd104.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fd104/fast' failed
+make: *** [cmTC_fd104/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da54f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da54f.dir/build.make CMakeFiles/cmTC_da54f.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_da54f.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_da54f.dir/CheckSymbolExists.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_da54f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da54f.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_da54f.dir/CheckSymbolExists.cxx.o  -o cmTC_da54f 
+CMakeFiles/cmTC_da54f.dir/CheckSymbolExists.cxx.o: Na função "main":
+CheckSymbolExists.cxx:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_da54f.dir/build.make:97: recipe for target 'cmTC_da54f' failed
+make[1]: *** [cmTC_da54f] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_da54f/fast' failed
+make: *** [cmTC_da54f/fast] Error 2
+
+File /home/julio/tools/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAS_FCOLOR_DIAGNOSTICS failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce684/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce684.dir/build.make CMakeFiles/cmTC_ce684.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ce684.dir/src.cxx.o
+/usr/bin/c++    -DHAS_FCOLOR_DIAGNOSTICS   -fcolor-diagnostics -o CMakeFiles/cmTC_ce684.dir/src.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fcolor-diagnostics'
+CMakeFiles/cmTC_ce684.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ce684.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ce684.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ce684/fast' failed
+make: *** [cmTC_ce684/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4182/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4182.dir/build.make CMakeFiles/cmTC_d4182.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d4182.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_d4182.dir/CheckSymbolExists.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_d4182
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4182.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d4182.dir/CheckSymbolExists.cxx.o  -o cmTC_d4182 
+CMakeFiles/cmTC_d4182.dir/CheckSymbolExists.cxx.o: Na função "main":
+CheckSymbolExists.cxx:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d4182.dir/build.make:97: recipe for target 'cmTC_d4182' failed
+make[1]: *** [cmTC_d4182] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d4182/fast' failed
+make: *** [cmTC_d4182/fast] Error 2
+
+File /home/julio/tools/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAS_FCOLOR_DIAGNOSTICS failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b948c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b948c.dir/build.make CMakeFiles/cmTC_b948c.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b948c.dir/src.cxx.o
+/usr/bin/c++    -DHAS_FCOLOR_DIAGNOSTICS   -fcolor-diagnostics -o CMakeFiles/cmTC_b948c.dir/src.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fcolor-diagnostics'
+CMakeFiles/cmTC_b948c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b948c.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b948c.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b948c/fast' failed
+make: *** [cmTC_b948c/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d5f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d5f7.dir/build.make CMakeFiles/cmTC_3d5f7.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d5f7.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_3d5f7.dir/CheckSymbolExists.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_3d5f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d5f7.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_3d5f7.dir/CheckSymbolExists.cxx.o  -o cmTC_3d5f7 
+CMakeFiles/cmTC_3d5f7.dir/CheckSymbolExists.cxx.o: Na função "main":
+CheckSymbolExists.cxx:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3d5f7.dir/build.make:97: recipe for target 'cmTC_3d5f7' failed
+make[1]: *** [cmTC_3d5f7] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3d5f7/fast' failed
+make: *** [cmTC_3d5f7/fast] Error 2
+
+File /home/julio/tools/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAS_FCOLOR_DIAGNOSTICS failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51793/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51793.dir/build.make CMakeFiles/cmTC_51793.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_51793.dir/src.cxx.o
+/usr/bin/c++    -DHAS_FCOLOR_DIAGNOSTICS   -fcolor-diagnostics -o CMakeFiles/cmTC_51793.dir/src.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fcolor-diagnostics'
+CMakeFiles/cmTC_51793.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_51793.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_51793.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_51793/fast' failed
+make: *** [cmTC_51793/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8642f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8642f.dir/build.make CMakeFiles/cmTC_8642f.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8642f.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_8642f.dir/CheckSymbolExists.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_8642f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8642f.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8642f.dir/CheckSymbolExists.cxx.o  -o cmTC_8642f 
+CMakeFiles/cmTC_8642f.dir/CheckSymbolExists.cxx.o: Na função "main":
+CheckSymbolExists.cxx:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8642f.dir/build.make:97: recipe for target 'cmTC_8642f' failed
+make[1]: *** [cmTC_8642f] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8642f/fast' failed
+make: *** [cmTC_8642f/fast] Error 2
+
+File /home/julio/tools/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAS_FCOLOR_DIAGNOSTICS failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f129/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f129.dir/build.make CMakeFiles/cmTC_8f129.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8f129.dir/src.cxx.o
+/usr/bin/c++    -DHAS_FCOLOR_DIAGNOSTICS   -fcolor-diagnostics -o CMakeFiles/cmTC_8f129.dir/src.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fcolor-diagnostics'
+CMakeFiles/cmTC_8f129.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8f129.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_8f129.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8f129/fast' failed
+make: *** [cmTC_8f129/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bfe53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bfe53.dir/build.make CMakeFiles/cmTC_bfe53.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bfe53.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_bfe53.dir/CheckSymbolExists.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_bfe53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfe53.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_bfe53.dir/CheckSymbolExists.cxx.o  -o cmTC_bfe53 
+CMakeFiles/cmTC_bfe53.dir/CheckSymbolExists.cxx.o: Na função "main":
+CheckSymbolExists.cxx:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bfe53.dir/build.make:97: recipe for target 'cmTC_bfe53' failed
+make[1]: *** [cmTC_bfe53] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bfe53/fast' failed
+make: *** [cmTC_bfe53/fast] Error 2
+
+File /home/julio/tools/fiction/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAS_FCOLOR_DIAGNOSTICS failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1df88/fast && /usr/bin/make -f CMakeFiles/cmTC_1df88.dir/build.make CMakeFiles/cmTC_1df88.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1df88.dir/src.cxx.o
+/usr/bin/c++    -DHAS_FCOLOR_DIAGNOSTICS   -fcolor-diagnostics -o CMakeFiles/cmTC_1df88.dir/src.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fcolor-diagnostics'
+make[1]: *** [CMakeFiles/cmTC_1df88.dir/build.make:66: CMakeFiles/cmTC_1df88.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1df88/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/julio/tools/fiction/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4c5eb/fast && /usr/bin/make -f CMakeFiles/cmTC_4c5eb.dir/build.make CMakeFiles/cmTC_4c5eb.dir/build
+make[1]: Entrando no diretório '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4c5eb.dir/src.cxx.o
+/usr/bin/c++    -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_4c5eb.dir/src.cxx.o -c /home/julio/tools/fiction/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4c5eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c5eb.dir/link.txt --verbose=1
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_4c5eb.dir/src.cxx.o  -o cmTC_4c5eb 
+/usr/bin/ld: CMakeFiles/cmTC_4c5eb.dir/src.cxx.o: na função "main":
+src.cxx:(.text+0x46): referência não definida para "pthread_create"
+/usr/bin/ld: src.cxx:(.text+0x52): referência não definida para "pthread_detach"
+/usr/bin/ld: src.cxx:(.text+0x63): referência não definida para "pthread_join"
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_4c5eb.dir/build.make:87: cmTC_4c5eb] Erro 1
+make[1]: Saindo do diretório '/home/julio/tools/fiction/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_4c5eb/fast] Erro 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test HAS_FCOLOR_DIAGNOSTICS failed with the following output:
+Change Dir: /home/julio/tools/fiction_gitHub/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c5f49/fast && /usr/bin/make -f CMakeFiles/cmTC_c5f49.dir/build.make CMakeFiles/cmTC_c5f49.dir/build
+make[1]: Entering directory '/home/julio/tools/fiction_gitHub/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c5f49.dir/src.cxx.o
+/usr/bin/c++    -DHAS_FCOLOR_DIAGNOSTICS   -fcolor-diagnostics -o CMakeFiles/cmTC_c5f49.dir/src.cxx.o -c /home/julio/tools/fiction_gitHub/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fcolor-diagnostics'
+make[1]: *** [CMakeFiles/cmTC_c5f49.dir/build.make:66: CMakeFiles/cmTC_c5f49.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/julio/tools/fiction_gitHub/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c5f49/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/julio/tools/fiction_gitHub/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62ab6/fast && /usr/bin/make -f CMakeFiles/cmTC_62ab6.dir/build.make CMakeFiles/cmTC_62ab6.dir/build
+make[1]: Entrando no diretório '/home/julio/tools/fiction_gitHub/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_62ab6.dir/src.cxx.o
+/usr/bin/c++    -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_62ab6.dir/src.cxx.o -c /home/julio/tools/fiction_gitHub/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_62ab6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62ab6.dir/link.txt --verbose=1
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_62ab6.dir/src.cxx.o  -o cmTC_62ab6 
+/usr/bin/ld: CMakeFiles/cmTC_62ab6.dir/src.cxx.o: na função "main":
+src.cxx:(.text+0x46): referência não definida para "pthread_create"
+/usr/bin/ld: src.cxx:(.text+0x52): referência não definida para "pthread_detach"
+/usr/bin/ld: src.cxx:(.text+0x63): referência não definida para "pthread_join"
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_62ab6.dir/build.make:87: cmTC_62ab6] Erro 1
+make[1]: Saindo do diretório '/home/julio/tools/fiction_gitHub/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_62ab6/fast] Erro 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test HAS_FCOLOR_DIAGNOSTICS failed with the following output:
+Change Dir: /home/julio/tools/migortho/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_db6bc/fast && /usr/bin/make -f CMakeFiles/cmTC_db6bc.dir/build.make CMakeFiles/cmTC_db6bc.dir/build
+make[1]: Entering directory '/home/julio/tools/migortho/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db6bc.dir/src.cxx.o
+/usr/bin/c++    -DHAS_FCOLOR_DIAGNOSTICS   -fcolor-diagnostics -o CMakeFiles/cmTC_db6bc.dir/src.cxx.o -c /home/julio/tools/migortho/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fcolor-diagnostics'
+make[1]: *** [CMakeFiles/cmTC_db6bc.dir/build.make:66: CMakeFiles/cmTC_db6bc.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/julio/tools/migortho/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_db6bc/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/julio/tools/migortho/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_491f6/fast && /usr/bin/make -f CMakeFiles/cmTC_491f6.dir/build.make CMakeFiles/cmTC_491f6.dir/build
+make[1]: Entrando no diretório '/home/julio/tools/migortho/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_491f6.dir/src.cxx.o
+/usr/bin/c++    -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_491f6.dir/src.cxx.o -c /home/julio/tools/migortho/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_491f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_491f6.dir/link.txt --verbose=1
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_491f6.dir/src.cxx.o  -o cmTC_491f6 
+/usr/bin/ld: CMakeFiles/cmTC_491f6.dir/src.cxx.o: na função "main":
+src.cxx:(.text+0x46): referência não definida para "pthread_create"
+/usr/bin/ld: src.cxx:(.text+0x52): referência não definida para "pthread_detach"
+/usr/bin/ld: src.cxx:(.text+0x63): referência não definida para "pthread_join"
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_491f6.dir/build.make:87: cmTC_491f6] Erro 1
+make[1]: Saindo do diretório '/home/julio/tools/migortho/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_491f6/fast] Erro 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG -w -O3  -rdynamic CMakeFiles/pretty_print.dir/pretty_print.cpp.o  -o pretty_print 

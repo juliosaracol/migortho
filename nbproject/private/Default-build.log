@@ -1,0 +1,42 @@
+Scanning dependencies of target z3
+[  3%] Creating directories for 'z3'
+[  6%] No download step for 'z3'
+[  9%] No patch step for 'z3'
+[ 12%] No update step for 'z3'
+[ 15%] Performing configure step for 'z3'
+-- z3 configure command succeeded.  See also /home/julio/fiction/z3-prefix/src/z3-stamp/z3-configure-*.log
+[ 18%] Performing build step for 'z3'
+-- z3 build command succeeded.  See also /home/julio/fiction/z3-prefix/src/z3-stamp/z3-build-*.log
+[ 21%] Performing install step for 'z3'
+-- z3 install command succeeded.  See also /home/julio/fiction/z3-prefix/src/z3-stamp/z3-install-*.log
+[ 24%] Completed 'z3'
+[ 24%] Built target z3
+[ 27%] Building CXX object lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.o
+[ 30%] Building CXX object lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.o
+[ 33%] Building CXX object lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.o
+[ 36%] Building CXX object lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.o
+[ 39%] Building CXX object lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.o
+[ 42%] Linking CXX static library liblibabcsat.a
+[ 42%] Built target libabcsat
+Scanning dependencies of target fiction
+[ 45%] Building CXX object CMakeFiles/fiction.dir/src/algo/exact_pr.cpp.o
+[ 48%] Building CXX object CMakeFiles/fiction.dir/src/algo/orthogonal_pr.cpp.o
+[ 51%] Building CXX object CMakeFiles/fiction.dir/src/fiction.cpp.o
+[ 54%] Building CXX object CMakeFiles/fiction.dir/src/io/qca_writer.cpp.o
+[ 57%] Building CXX object CMakeFiles/fiction.dir/src/io/svg_writer.cpp.o
+[ 60%] Building CXX object CMakeFiles/fiction.dir/src/tech/fcn_cell_layout.cpp.o
+[ 63%] Building CXX object CMakeFiles/fiction.dir/src/tech/fcn_gate_library.cpp.o
+[ 66%] Building CXX object CMakeFiles/fiction.dir/src/tech/fcn_technology.cpp.o
+[ 69%] Building CXX object CMakeFiles/fiction.dir/src/tech/port_router.cpp.o
+[ 72%] Building CXX object CMakeFiles/fiction.dir/src/tech/qca_one_library.cpp.o
+[ 75%] Building CXX object CMakeFiles/fiction.dir/src/topo/directions.cpp.o
+[ 78%] Building CXX object CMakeFiles/fiction.dir/src/topo/fcn_clocking_scheme.cpp.o
+[ 81%] Building CXX object CMakeFiles/fiction.dir/src/topo/fcn_gate_layout.cpp.o
+[ 84%] Building CXX object CMakeFiles/fiction.dir/src/topo/fcn_layout.cpp.o
+[ 87%] Building CXX object CMakeFiles/fiction.dir/src/topo/logic_network.cpp.o
+[ 90%] Building CXX object CMakeFiles/fiction.dir/src/topo/operations.cpp.o
+[ 93%] Linking CXX executable fiction
+[ 93%] Built target fiction
+[ 96%] Building CXX object libs/lorina/examples/CMakeFiles/pretty_print.dir/pretty_print.cpp.o
+[100%] Linking CXX executable pretty_print
+[100%] Built target pretty_print

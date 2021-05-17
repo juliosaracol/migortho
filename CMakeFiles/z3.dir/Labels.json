@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/julio/tools/migortho/CMakeFiles/z3"
+		},
+		{
+			"file" : "/home/julio/tools/migortho/CMakeFiles/z3.rule"
+		},
+		{
+			"file" : "/home/julio/tools/migortho/CMakeFiles/z3-complete.rule"
+		},
+		{
+			"file" : "/home/julio/tools/migortho/z3-prefix/src/z3-stamp/z3-install.rule"
+		},
+		{
+			"file" : "/home/julio/tools/migortho/z3-prefix/src/z3-stamp/z3-mkdir.rule"
+		},
+		{
+			"file" : "/home/julio/tools/migortho/z3-prefix/src/z3-stamp/z3-download.rule"
+		},
+		{
+			"file" : "/home/julio/tools/migortho/z3-prefix/src/z3-stamp/z3-update.rule"
+		},
+		{
+			"file" : "/home/julio/tools/migortho/z3-prefix/src/z3-stamp/z3-patch.rule"
+		},
+		{
+			"file" : "/home/julio/tools/migortho/z3-prefix/src/z3-stamp/z3-configure.rule"
+		},
+		{
+			"file" : "/home/julio/tools/migortho/z3-prefix/src/z3-stamp/z3-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"z3"
+		],
+		"name" : "z3"
+	}
+}

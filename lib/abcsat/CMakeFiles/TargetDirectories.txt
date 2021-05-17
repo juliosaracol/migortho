@@ -1,0 +1,3 @@
+/home/julio/tools/fiction/lib/abcsat/CMakeFiles/rebuild_cache.dir
+/home/julio/tools/fiction/lib/abcsat/CMakeFiles/libabcsat.dir
+/home/julio/tools/fiction/lib/abcsat/CMakeFiles/edit_cache.dir
