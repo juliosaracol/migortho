@@ -2,7 +2,7 @@
 
 This repository contain the copy of Fiction Environment that was modified
 for created MIG-based synthesis published in SBCCI (Symposium on Integrated Circuits and Systems Design)
-2020 named MIGortho.
+2020 named [MIGortho](https://ieeexplore.ieee.org/document/9189930).
 
 The oficial repository Fiction Tool is [here](https://github.com/marcelwa/fiction).
 
@@ -20,10 +20,14 @@ If you use *Migortho* in your work, I would appreciate if you cited
   doi={10.1109/SBCCI50935.2020.9189930}}
 ```
 
+## Disclaimer
+
+This is academic software made available under the CRAPL license. For more information see the LICENSE file.
 
 
 =====================================================
-Fiction Tool:
+
+# Description from Original Fiction Tool:
 
 This code base provides a framework for **fi**eld-**c**oupled **t**echnology-**i**ndependent **o**pen **n**anocomputing
 in C++14 using the [EPFL Logic Synthesis Libraries](https://github.com/lsils/lstools-showcase). *fiction* focuses on the
