@@ -8,16 +8,16 @@
 #o script ./runMockturtle.sh ou runMigortho.sh passando os parametros necessários
 
 function help(){
-    echo "-----------------HELP---------------------------------\n"
-	echo "./run.sh parametros Script 4 modos de execução:\n"
-	echo "  1# Mockturtle: [mockturtle pastaEntrada pastaSaída]\n"
-	echo "  2# EvaluationMockturtle: [evalmockturtle pastaEntrada]\n"
-	echo "  3# GraphicsEvaluationMockturtle: [plotevalmockturtle arquivo.xls plot[boxplot|lines|linespoint|point|boxes]]\n"
-	echo "  4# Migortho: [migortho pastaEntrada pastaSaída]\n"
-	echo "  5# EvaluationMigortho: [evalmigortho pastaEntrada]\n"
-	echo "  6# Cmd: [cmd pastaEntrada pastaSaída]\n"
-	echo "  7# EvaluationCmd: [evalcmd pastaEntrada]\n"
-	echo "OBS: No arquivo run.sh são definidos os parâmetros acima;\n"
+    echo "-----------------HELP---------------------------------"
+	echo "./run.sh parametros Script 4 modos de execução:"
+	echo "  1# Mockturtle: [mockturtle pastaEntrada pastaSaída]"
+	echo "  2# EvaluationMockturtle: [evalmockturtle pastaEntrada]"
+	echo "  3# GraphicsEvaluationMockturtle: [plotevalmockturtle arquivo.xls plot[boxplot|lines|linespoint|point|boxes]]"
+	echo "  4# Migortho: [migortho pastaEntrada pastaSaída]"
+	echo "  5# EvaluationMigortho: [evalmigortho pastaEntrada]"
+	echo "  6# Cmd: [cmd pastaEntrada pastaSaída]"
+	echo "  7# EvaluationCmd: [evalcmd pastaEntrada]"
+	echo "OBS: No arquivo run.sh são definidos os parâmetros acima;"
 	echo "-------------------------------------------------------"
 }
 
@@ -67,7 +67,7 @@ fi
 #----------------------------------------------------------------------------------------------------
 if [ "$1" = "migortho" >/dev/null ]
 then
-./runMigortho.sh $entrada Migortho "migortho " $saidaBase
+./runMigortho.sh $entrada Migortho "migortho" $saidaBase
 fi
 
 #----------------------------------------------------------------------------------------------------
@@ -598,7 +598,8 @@ entrada=$2;
 if [ "$1" = "evalmigortho" >/dev/null ]
 then
 xlsSaida=${entrada:0:lenght-1}"_MIGORTHO_EVALUATION_GENERAL.xls"
-./runEvaluationOrtho.sh "$entrada" "$xlsSaida"
+echo "./runEvaluationMigortho.sh $entrada $xlsSaida"
+./runEvaluationMigortho.sh "$entrada" "$xlsSaida"
 fi
 
 #----------------------------------------------------------------------------------------------------

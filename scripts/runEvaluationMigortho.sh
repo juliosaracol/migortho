@@ -39,6 +39,6 @@ FILES=$pasta"*.txt"
 for f in $FILES
 do
 	echo "Avaliando Resultados $f"
-	python evaluationLayouts.py $f $SAIDA
+	python2.7 evaluationLayouts.py $f $SAIDA
 done
 

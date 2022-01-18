@@ -50,11 +50,13 @@ while True:
 		if len(line) > 0:
 			token = [];
 			token = string.split(line," ");   # quebra a string em uma lista
-			listLines.append(token);
+			if((str(token[0]).find("#")) == -1): # filtro para nao considerar comentarios no log, tempo de execucao e etc..
+				listLines.append(token);
 		else:
 			break;
 #print listLines;
 #------------------------------------------------
+#print "listLines e:";
 #print listLines[0];
 inOut = string.split(listLines[0][3],'/');
 stringFile+=inOut[0]+";";#inputs
